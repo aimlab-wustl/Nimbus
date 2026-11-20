@@ -1,6 +1,6 @@
 site_name: NIMBUS
 site_description: >-
-  NIMBUS, neuromorphic Ising machine with block updates of spins: a higher-order Ising machine with programmable multi-spin moves. Compiler, emulation,
+  NIMBUS, Neuromorphic Ising Machine with Block Updates of Spins: a higher-order Ising machine with programmable multi-spin moves. Compiler, emulation,
   CPU/GPU backends and FPGA decoders that enforce constraints through moves instead of energy penalties.
 site_author: Faiek Ahsan and Shantanu Chakrabartty
 site_url: https://aimlab-wustl.github.io/Nimbus/

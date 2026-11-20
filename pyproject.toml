@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "nimbus-ising"
 version = "1.0.0"
-description = "NIMBUS, neuromorphic Ising machine with block updates of spins: higher-order Ising machine with programmable multi-spin moves; compiler, event-driven emulation, CPU/GPU backends"
+description = "NIMBUS, Neuromorphic Ising Machine with Block Updates of Spins: higher-order Ising machine with programmable multi-spin moves; compiler, event-driven emulation, CPU/GPU backends"
 requires-python = ">=3.10"
 authors = [{ name = "Faiek Ahsan" }]
 license = "CC-BY-NC-4.0"

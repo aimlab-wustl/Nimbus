@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the paper given under preferred-citation."
-title: "NIMBUS: neuromorphic Ising machine with block updates of spins"
+title: "NIMBUS: Neuromorphic Ising Machine with Block Updates of Spins"
 type: software
 authors:
   - family-names: Ahsan

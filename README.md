@@ -1,4 +1,6 @@
-# NIMBUS: neuromorphic Ising machine with block updates of spins
+# NIMBUS
+
+**N**euromorphic **I**sing **M**achine with **B**lock **U**pdates of **S**pins
 
 [![arXiv](https://img.shields.io/badge/arXiv-2611.25352-b31b1b.svg)](https://arxiv.org/abs/2611.25352)
 
