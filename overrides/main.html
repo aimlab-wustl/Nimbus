@@ -29,4 +29,7 @@
   {{ super() }}
   {% if page and page.meta and page.meta.extra_js %}{% for f in page.meta.extra_js %}
   <script src="{{ f | url }}"></script>{% endfor %}{% endif %}
+  {% if config.extra.goatcounter %}
+  <script data-goatcounter="https://{{ config.extra.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  {% endif %}
 {% endblock %}

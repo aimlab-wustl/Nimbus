@@ -161,6 +161,7 @@ extra:
       link: https://doi.org/10.5281/zenodo.24182700
       name: Software and data on Zenodo
   generator: false
+  goatcounter: nimbus-ising
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css
