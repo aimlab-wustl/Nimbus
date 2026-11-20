@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper given under preferred-citation."
+title: "NIMBUS: neuromorphic Ising machine with block updates of spins"
+type: software
+authors:
+  - family-names: Ahsan
+    given-names: Faiek
+    affiliation: Washington University in St. Louis
+  - family-names: Chakrabartty
+    given-names: Shantanu
+    affiliation: Washington University in St. Louis
+version: "1.0"
+date-released: "2026-11-19"
+license: CC-BY-NC-4.0
+repository-code: "https://github.com/aimlab-wustl/Nimbus"
+url: "https://github.com/aimlab-wustl/Nimbus"
+keywords:
+  - Ising machine
+  - neuromorphic computing
+  - constrained optimization
+  - graph matching
+  - surface-code decoding
+  - FPGA
+preferred-citation:
+  type: article
+  title: "Compiling Constraints into Neuromorphic Ising Machines"
+  authors:
+    - family-names: Ahsan
+      given-names: Faiek
+    - family-names: Chakrabartty
+      given-names: Shantanu
+  year: 2026
+  journal: "arXiv preprint"
+  doi: "10.48550/arXiv.2611.25352"
+  url: "https://arxiv.org/abs/2611.25352"
+  identifiers:
+    - type: other
+      value: "arXiv:2611.25352"

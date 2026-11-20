@@ -1,0 +1,9 @@
+problem_set,method,setting,replicas,instances,solved_at_best_budget,its_median_iterations,its_ci_low,its_ci_high,best_budget_log2,largest_budget_iterations
+synthetic,"this work, complete library","m=0.125, kappa=2",256,20,20,2721.5,1965.02,3264.78,8,1.67772e+07
+synthetic,"this work, path library","m=8, kappa=2",256,20,11,1.20486e+06,680362,2.71095e+06,10,1.67772e+07
+synthetic,N-HOIM with penalty,"lambda=1, T_end=0.3, ratio=30",256,20,16,6.63989e+07,6.36788e+06,1.23369e+09,22,1.67772e+07
+synthetic,NeuroSA with quadratized penalty,"lambda=2, T_end=0.3, ratio=100",256,20,15,1.23377e+09,2.45607e+08,1.23377e+09,20,1.67772e+07
+willow,"this work, complete library","m=2, kappa=32",256,40,40,5365.88,4874.15,6772.03,8,1.67772e+07
+willow,"this work, path library","m=0.5, kappa=1.5",256,40,25,2.40499e+06,1.06556e+06,9.61997e+06,12,1.67772e+07
+willow,N-HOIM with penalty,"lambda=1, T_end=0.3, ratio=30",256,40,26,1.84606e+06,1.18665e+06,1.91789e+07,16,1.67772e+07
+willow,NeuroSA with quadratized penalty,"lambda=2, T_end=0.3, ratio=10",64,40,27,4.13424e+08,1.55703e+08,4.90603e+09,24,1.67772e+07

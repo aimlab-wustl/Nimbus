@@ -1,0 +1,49 @@
+{% extends "main.html" %}
+
+{% block hero %}
+<section class="nb-hero" aria-label="NIMBUS">
+  <canvas class="nb-hero__canvas" id="nb-hero-canvas" aria-hidden="true"></canvas>
+  <div class="nb-hero__inner md-grid">
+    <div class="nb-hero__text">
+      <div class="nb-hero__brand">
+        <img src="{{ 'assets/brand/logo.svg' | url }}" alt="" width="64" height="64">
+        <span>NIMBUS</span>
+      </div>
+      <p class="nb-hero__expansion">neuromorphic Ising machine with block updates of spins</p>
+      <h1 class="nb-hero__title">Constraints compiled into moves</h1>
+      <p class="nb-hero__lead">
+        A higher-order neuromorphic Ising machine whose moves are programmable multi-spin transitions.
+        It enforces constraints through these transitions instead of energy penalties, so the search visits only
+        feasible states, on CPU, GPU and FPGA.
+      </p>
+      <p class="nb-hero__paper">
+        The software package of the paper
+        <a href="https://arxiv.org/abs/2611.25352"><em>Compiling Constraints into Neuromorphic Ising Machines</em></a>,
+        Faiek Ahsan and Shantanu Chakrabartty, 2026
+      </p>
+      <div class="nb-hero__buttons">
+        <a href="{{ 'getting-started/installation/' | url }}" class="md-button md-button--primary">Get started</a>
+        <a href="{{ 'concepts/' | url }}" class="md-button">How it works</a>
+        <a href="https://arxiv.org/abs/2611.25352" class="md-button nb-button--ghost">Paper</a>
+        <a href="{{ config.repo_url }}" class="md-button nb-button--ghost">GitHub</a>
+      </div>
+      <ul class="nb-pills">
+        <li>Python 3.10+</li>
+        <li>CPU · GPU · FPGA</li>
+        <li><a href="https://arxiv.org/abs/2611.25352">arXiv:2611.25352</a></li>
+        <li><a href="https://doi.org/10.5281/zenodo.24182700">DOI 10.5281/zenodo.24182700</a></li>
+        <li><a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+  {{ page.content }}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'assets/brand/hero.js' | url }}"></script>
+{% endblock %}

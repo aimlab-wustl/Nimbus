@@ -1,0 +1,6 @@
+* #variable= 6 #constraint= 2 #equal= 0 intsize= 3
+* nimbus original fixture: unit-capacity packing blocks {x1,x2,x3} and {x4,x5} (at most one selected each); x6 free.
+* sum x <= 1 is written -1 x1 -1 x2 ... >= -1 because PB24 OPB has no '<='.
+min: -1 x1 -2 x2 -3 x3 +1 x1 x4 -2 x5 -1 x6 ;
+-1 x1 -1 x2 -1 x3 >= -1 ;
+-1 x4 -1 x5 >= -1 ;

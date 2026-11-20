@@ -1,0 +1,4 @@
+platform,round_lo_us,round_hi_us,source
+trapped ions,1000.0,5000.0,Ye2026
+neutral atoms,4450.0,4450.0,Bluvstein2026
+superconducting,1.1,1.1,GoogleQAI2025

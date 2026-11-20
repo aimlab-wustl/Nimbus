@@ -1,0 +1,9 @@
+name,algorithm,kind,time_us,time_early_stop_us,ler,source
+This work (FPGA),hw_ml,board,9.757661802362122,3.335314328538772,0.062125,board
+tensor-network ML (CPU),tn,cpu,143001.5253648162,,0.06125,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+BP-OSD (CPU),bposd,cpu,340.60781821608543,,0.076875,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+PyMatching (CPU),pm,cpu,14.895778149366379,,0.122125,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+union-find (CPU),uf,cpu,91.02750569581985,,0.15625,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+"simulated annealing, one CPU core, XZZX code [c]",lowest_energy,published,30600.0,,0.070125,Sakashita2026
+"neural decoder, software [a]",matching,published,31340.0,,0.122125,Varsamopoulos2020
+"D-Wave quantum annealer, link and annealing time [d]",lowest_energy,published,209.76,,0.070125,Guo2025

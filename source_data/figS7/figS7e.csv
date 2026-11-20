@@ -1,0 +1,55 @@
+series,d,time_us,kind,source
+this_work_fixed_budget,3,1.0499496913166273,measured,board
+this_work_early_stop_mean,3,0.6236066668265791,measured,board
+tn,3,619.2872300744057,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+bposd,3,10.275635868310928,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+pm,3,7.061036303639412,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+uf,3,4.774546250700951,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+this_work_fixed_budget,5,2.891575371293966,measured,board
+this_work_early_stop_mean,5,1.2677634192768252,measured,board
+tn,5,10911.09262779355,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+bposd,5,52.975891157984734,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+pm,5,8.439356461167336,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+uf,5,19.539296627044678,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+this_work_fixed_budget,7,6.94083591121185,measured,board
+this_work_early_stop_mean,7,3.097460161192606,measured,board
+tn,7,53902.090303599834,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+bposd,7,148.01986515522003,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+pm,7,10.667014867067337,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+uf,7,48.42120222747326,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+this_work_fixed_budget,9,9.757661802362122,measured,board
+this_work_early_stop_mean,9,3.335314328538772,measured,board
+tn,9,143001.5253648162,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+bposd,9,340.60781821608543,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+pm,9,14.895778149366379,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+uf,9,91.02750569581985,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+this_work_fixed_budget,11,13.009238863664732,measured,board
+this_work_early_stop_mean,11,3.7982664389316096,measured,board
+tn,11,279142.13879033923,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+bposd,11,652.6251416653395,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+pm,11,19.34821717441082,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+uf,11,151.96786262094975,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+this_work_fixed_budget,13,15.782867503299636,measured,board
+this_work_early_stop_mean,13,5.172102468317979,measured,board
+tn,13,462638.0841434002,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+bposd,13,1139.301909133792,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+pm,13,24.678176268935204,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+uf,13,244.81838569045067,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+this_work_fixed_budget,15,52.018074125474875,measured,board
+this_work_early_stop_mean,15,10.374561602275216,measured,board
+tn,15,696457.5074613094,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+bposd,15,1826.352784410119,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+pm,15,30.33747896552086,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+uf,15,353.672718629241,measured,"this work, one core, INTEL(R) XEON(R) GOLD 6548Y+"
+simulated_annealing,5,8660.0,published,Sakashita2026
+simulated_annealing,7,17600.0,published,Sakashita2026
+simulated_annealing,9,30600.0,published,Sakashita2026
+simulated_annealing,11,46700.0,published,Sakashita2026
+neural_software,3,4140.0,published,Varsamopoulos2020
+neural_software,5,11190.0,published,Varsamopoulos2020
+neural_software,7,28530.0,published,Varsamopoulos2020
+neural_software,9,31340.0,published,Varsamopoulos2020
+neural_gpu,11,7000.0,published,Davaasuren2020
+dwave,5,45.74,published,Guo2025
+dwave,7,76.78,published,Guo2025
+dwave,9,209.76,published,Guo2025

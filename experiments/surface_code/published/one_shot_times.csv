@@ -1,0 +1,13 @@
+series,label,d,time_per_shot_us,platform,noise,algorithm_on_our_shots,source
+simulated_annealing,"simulated annealing, one CPU core, XZZX code [c]",5,8660.0,CPU 1 core (C++),code-capacity depolarizing p=0.02,lowest_energy,Sakashita2026
+simulated_annealing,"simulated annealing, one CPU core, XZZX code [c]",7,17600.0,CPU 1 core (C++),code-capacity depolarizing p=0.02,lowest_energy,Sakashita2026
+simulated_annealing,"simulated annealing, one CPU core, XZZX code [c]",9,30600.0,CPU 1 core (C++),code-capacity depolarizing p=0.02,lowest_energy,Sakashita2026
+simulated_annealing,"simulated annealing, one CPU core, XZZX code [c]",11,46700.0,CPU 1 core (C++),code-capacity depolarizing p=0.02,lowest_energy,Sakashita2026
+neural_software,"neural decoder, software [a]",3,4140.0,CPU or GPU (not stated),code-capacity depolarizing (rotated),matching,Varsamopoulos2020
+neural_software,"neural decoder, software [a]",5,11190.0,CPU or GPU (not stated),code-capacity depolarizing (rotated),matching,Varsamopoulos2020
+neural_software,"neural decoder, software [a]",7,28530.0,CPU or GPU (not stated),code-capacity depolarizing (rotated),matching,Varsamopoulos2020
+neural_software,"neural decoder, software [a]",9,31340.0,CPU or GPU (not stated),code-capacity depolarizing (rotated),matching,Varsamopoulos2020
+neural_gpu,"neural decoder, GPU [b]",11,7000.0,GPU GTX 1060 + i7-6700 (TensorFlow batch 1),code-capacity depolarizing p=0.15 (unrotated),matching,Davaasuren2020
+dwave,"D-Wave quantum annealer, link and annealing time [d]",5,45.74,D-Wave QPU (cloud latency and CPU region formation excluded),code-capacity bit-flip p=0.01 (planar),lowest_energy,Guo2025
+dwave,"D-Wave quantum annealer, link and annealing time [d]",7,76.78,D-Wave QPU (cloud latency and CPU region formation excluded),code-capacity bit-flip p=0.01 (planar),lowest_energy,Guo2025
+dwave,"D-Wave quantum annealer, link and annealing time [d]",9,209.76,D-Wave QPU (cloud latency and CPU region formation excluded),code-capacity bit-flip p=0.01 (planar),lowest_energy,Guo2025

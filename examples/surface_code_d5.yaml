@@ -1,0 +1,26 @@
+# Surface-code decoding as a constrained problem (parity-check constraints): rotated code, d = 5, X errors with
+# probability p = 0.1, one syndrome of the 12 Z checks. The moves are the X-type stabilizers plus one logical
+# operator (library stabilizers_logical); every move keeps the syndrome, so every visited state is a valid
+# correction. The objective is the error weight (minimum-weight decoding).
+# The syndrome comes from the error on qubits 0, 4 and 20 (examples/README.md shows how to make others).
+schema: nimbus.run/1
+name: surface_code_d5
+problem:
+  kind: surface_code
+  d: 5
+  p: 0.1
+  noise: independent
+  syndrome: [1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  library: stabilizers_logical
+transitions:
+  library: stabilizers_logical
+annealing:
+  schedule: fn_endpoints
+  params: auto
+  calibration: {rule: acceptance, p_start: 0.8, p_end: 0.01, eta: 0.1, min_ratio: 2, min_ratio_mode: lower_end}
+  attempts: 4000
+run:
+  seed: 1
+  replicas: 8
+backend:
+  name: cpu

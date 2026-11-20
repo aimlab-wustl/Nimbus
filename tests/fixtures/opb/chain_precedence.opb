@@ -1,0 +1,7 @@
+* #variable= 6 #constraint= 3 #equal= 0 intsize= 3 #product= 2 sizeproduct= 5
+* nimbus original fixture: two precedence chains x1 <- x2 <- x3 (x2 -> x1, x3 -> x2) and x4 <- x5; x6 free.
+* Boolean-to-spin: x = (1+s)/2, x=1 <-> s=+1 (selected).
+min: -3 x3 +2 x1 x5 -1 x2 x4 ~x6 +1 x6 ;
++1 x1 -1 x2 >= 0 ;
++1 x2 -1 x3 >= 0 ;
++1 x4 -1 x5 >= 0 ;

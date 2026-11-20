@@ -1,0 +1,56 @@
+{
+ "schema": "nimbus.spinpoly/1",
+ "name": "exact_card_5_2",
+ "description": "nimbus original fixture: choose exactly 2 of 5 spins; E = const + sum c T (plus_c convention), 0-based",
+ "n_spins": 5,
+ "index_base": 0,
+ "spin_convention": "plus_one_selected",
+ "energy_convention": "plus_c",
+ "const": 0.25,
+ "terms": [
+  {
+   "support": [
+    0
+   ],
+   "weight": -1.0
+  },
+  {
+   "support": [
+    1,
+    2
+   ],
+   "weight": 0.5
+  },
+  {
+   "support": [
+    0,
+    3,
+    4
+   ],
+   "weight": -2.0
+  },
+  {
+   "support": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "weight": "-3/4"
+  }
+ ],
+ "constraints": {
+  "exact_cardinality": [
+   {
+    "spins": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "k": 2
+   }
+  ]
+ }
+}

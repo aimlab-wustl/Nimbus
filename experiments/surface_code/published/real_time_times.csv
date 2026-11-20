@@ -1,0 +1,7 @@
+series,label,d,published_us,published_quantity,time_per_round_us,algorithm_on_our_shots,source
+helios,Helios (FPGA),9,0.16,decode time of d rounds,0.017777777777777778,uf,Liyanage2024
+collision_clustering,Collision Clustering (FPGA),9,0.07,time per round,0.07,uf,Barber2025
+local_clustering,Local Clustering (RFSoC),9,0.283,time per round,0.283,uf,Ziad2025
+micro_blossom,Micro Blossom (FPGA),9,0.37,average latency after the last round,0.04111111111111111,pm,Wu2025
+fpga_bposd,"BP+OSD (FPGA, worst case)",9,134.0,worst-case decode time of d rounds,14.88888888888889,bp,Bascones2025
+sliding_window_matching,sliding-window MWPM (CPU),9,2000.0,time per round,2000.0,pm,Skoric2023

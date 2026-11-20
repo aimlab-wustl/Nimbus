@@ -1,0 +1,20 @@
+# Example: one block of each supported constraint family (including contiguity) plus a
+# free spin, in the project schema nimbus.spinpoly/1 (0-based spins).
+schema: nimbus.spinpoly/1
+name: blocks_small
+description: minimal example for the constrained_blocks adapter tutorial
+n_spins: 13
+spin_convention: plus_one_selected
+energy_convention: minus_J
+const: 0
+terms:
+  - {support: [0, 3], weight: 1.0}
+  - {support: [7, 9], weight: -0.5}
+  - {support: [12], weight: 0.25}
+constraints:
+  exact_cardinality: [{spins: [0, 1, 2], k: 1}]
+  chains: [[3, 4]]
+  or_blocks: [{spins: [5, 6], signs: [1, -1]}]
+  amo_blocks: [[7, 8]]
+  contiguity: [{spins: [9, 10, 11], cyclic: false}]
+  free: [12]

@@ -1,0 +1,13 @@
+mode,d,design,replicas,layout,luts,power_decoding_w,power_idle_w,power_is_lower_bound,source_luts,source_power
+one_shot,3,pt_d3_ns16,16,one neuron per move,17492,3.0,2.2,yes,Vivado implementation utilization report of the design build (util_impl.rpt),board core-rail power log (power host tool)
+one_shot,5,pt_d5_ns16,16,one neuron per move,27020,3.2,2.2,yes,Vivado implementation utilization report of the design build (util_impl.rpt),board core-rail power log (power host tool)
+one_shot,7,pt_d7_ns64,64,one neuron per move,200580,9.2,3.2,no,Vivado implementation utilization report of the design build (util_impl.rpt),board core-rail power log (power host tool)
+one_shot,9,pt_d9_ns56,56,one neuron per move,273677,11.8,3.6,no,Vivado implementation utilization report of the design build (util_impl.rpt),board core-rail power log (power host tool)
+one_shot,11,pt_d11_ns40,40,one neuron per move,268331,12.8,3.6,no,Vivado implementation utilization report of the design build (util_impl.rpt),board core-rail power log (power host tool)
+one_shot,13,pt_d13_ns32,32,one neuron per move,278022,13.2,3.6,no,Vivado implementation utilization report of the design build (util_impl.rpt),board core-rail power log (power host tool)
+one_shot,15,pt_d15_ns24,24,one neuron per move,283859,13.2,3.6,no,Vivado implementation utilization report of the design build (util_impl.rpt),board core-rail power log (power host tool)
+real_time,3,ptw_d3_r16_k1_srl,16,one neuron per move,107518,5.8,3.2,no,Vivado implementation utilization report of the design build (util_impl.rpt),board core-rail power log (power host tool)
+real_time,5,ptw_d5_r16_k2,16,2 slabs,248614,10.4,3.6,no,Vivado implementation utilization report of the design build (util_impl.rpt),board core-rail power log (power host tool)
+real_time,7,ptw_d7_r16_k5l,16,5 slabs,240365,7.8,3.2,no,Vivado implementation utilization report of the design build (util_impl.rpt),board core-rail power log (power host tool)
+real_time,9,ptw_d9_r24_k9l_rs3_cs,24,9 slabs,279577,15.0,4.6,no,Vivado implementation utilization report of the design build (util_impl.rpt),board core-rail power log (power host tool)
+real_time,11,ptw_d11_r24_k11l_rs6_cs_swp_nf,24,11 slabs,299210,14.8,5.0,no,Vivado implementation utilization report of the design build (util_impl.rpt),board core-rail power log (ptw_d11 run log: idle 5.00 W, decoding 14.80 W)

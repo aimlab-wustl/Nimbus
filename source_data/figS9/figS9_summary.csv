@@ -1,0 +1,7 @@
+workload,label,instances,replicas,budget_log2,moves_R,break_even_iteration,break_even_fraction_of_run,cum_ratio_end,ratio_end,ratio_vs_recompute_all_max,rho_min,rho_max,rho_late,a_first_window,a_late,acceptance_floor_late,floor_below_one_over_rho,identity_max_rel_dev
+syn_k2_rowswap_path_q16,"16 x 16 permutation, path row exchanges",4,256,26,15,0,0,0.00312596,0.000303631,0.026184,0.423123,0.459707,0.427421,0.861557,0.000913532,0,True,2.94803e-16
+syn_k2_rowswap_path_q9,"9 x 9 permutation, path row exchanges",4,256,26,8,0,0,0.00381505,1.12479e-05,0.0701994,0.808952,0.891749,0.891483,0.685913,4.70144e-05,0,True,3.18342e-16
+syn_k2_flip,"single flips, order-2 terms",4,256,26,24,606426,0.00903645,0.0218851,0.000295905,0.0747617,2,2,2,0.897141,0.000567176,0,True,1.89986e-16
+syn_k3_flip,"single flips, order-3 terms",4,256,26,24,1112190,0.0165729,0.0205268,8.5767e-06,0.112209,3,3,3,0.896484,1.27669e-05,0,True,2.1369e-16
+syn_k4_flip,"single flips, order-4 terms",4,256,26,24,1212852,0.0180729,0.0220402,1.22524e-05,0.143847,4,4,4,0.863083,1.50986e-05,0,True,0
+syn_k2_onehot,"one-hot exchanges, order-2 terms",4,256,26,80,1112190,0.0165729,0.0222141,1.0104e-05,0.0437876,9.5,10.1076,9.51363,0.342224,3.65407e-06,0,True,2.91258e-16

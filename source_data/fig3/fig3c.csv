@@ -1,0 +1,32 @@
+method,setting,budget_log2,iterations_per_replica,replicas,pairs,p_optimum,p_optimum_ci_low,p_optimum_ci_high
+"this work, complete library","m=2, kappa=32",6,64,256,40,0.0186523,0.0136719,0.0241211
+"this work, complete library","m=2, kappa=32",8,256,256,40,0.199121,0.167573,0.230764
+"this work, complete library","m=2, kappa=32",10,1024,256,40,0.367188,0.318262,0.415627
+"this work, complete library","m=2, kappa=32",12,4096,256,40,0.501953,0.445896,0.55928
+"this work, complete library","m=2, kappa=32",14,16384,256,40,0.662695,0.596667,0.72637
+"this work, complete library","m=2, kappa=32",16,65536,256,40,0.809668,0.741597,0.872463
+"this work, complete library","m=2, kappa=32",18,262144,256,40,0.902051,0.839736,0.951858
+"this work, complete library","m=2, kappa=32",20,1048576,256,40,0.942676,0.885542,0.986426
+"this work, complete library","m=2, kappa=32",22,4194304,256,40,0.957227,0.90283,0.998831
+"this work, complete library","m=2, kappa=32",24,16777216,256,40,0.961719,0.909473,1
+"this work, path library","m=0.5, kappa=1.5",8,256,256,40,0.000976562,0.000292969,0.00185547
+"this work, path library","m=0.5, kappa=1.5",10,1024,256,40,0.00390625,0.00185547,0.00634766
+"this work, path library","m=0.5, kappa=1.5",12,4096,256,40,0.0199219,0.009375,0.0337891
+"this work, path library","m=0.5, kappa=1.5",14,16384,256,40,0.0625977,0.037207,0.0917017
+"this work, path library","m=0.5, kappa=1.5",16,65536,256,40,0.164941,0.108494,0.228228
+"this work, path library","m=0.5, kappa=1.5",18,262144,256,40,0.373437,0.269822,0.480481
+"this work, path library","m=0.5, kappa=1.5",20,1048576,256,40,0.577051,0.447456,0.702446
+"this work, path library","m=0.5, kappa=1.5",22,4194304,256,40,0.67832,0.545305,0.805286
+"this work, path library","m=0.5, kappa=1.5",24,16777216,256,40,0.718262,0.587107,0.842681
+N-HOIM with penalty,"lambda=1, T_end=0.3, ratio=30",14,16300,256,40,0.0262695,0.0182617,0.034375
+N-HOIM with penalty,"lambda=1, T_end=0.3, ratio=30",16,65500,256,40,0.149805,0.106055,0.193655
+N-HOIM with penalty,"lambda=1, T_end=0.3, ratio=30",18,262100,256,40,0.32666,0.236807,0.419048
+N-HOIM with penalty,"lambda=1, T_end=0.3, ratio=30",20,1048500,256,40,0.47002,0.356038,0.589355
+N-HOIM with penalty,"lambda=1, T_end=0.3, ratio=30",22,4194300,256,40,0.598047,0.459561,0.732422
+N-HOIM with penalty,"lambda=1, T_end=0.3, ratio=30",24,16777200,256,40,0.660059,0.512107,0.797754
+NeuroSA with quadratized penalty,"lambda=2, T_end=0.3, ratio=10",14,16384,64,40,0,0,0
+NeuroSA with quadratized penalty,"lambda=2, T_end=0.3, ratio=10",16,65536,64,40,0,0,0
+NeuroSA with quadratized penalty,"lambda=2, T_end=0.3, ratio=10",18,262144,64,40,0.00703125,0.00234375,0.0128906
+NeuroSA with quadratized penalty,"lambda=2, T_end=0.3, ratio=10",20,1048576,64,40,0.0390625,0.0183594,0.0628906
+NeuroSA with quadratized penalty,"lambda=2, T_end=0.3, ratio=10",22,4194304,64,40,0.0996094,0.0582031,0.149219
+NeuroSA with quadratized penalty,"lambda=2, T_end=0.3, ratio=10",24,16777216,64,40,0.231641,0.15625,0.311729

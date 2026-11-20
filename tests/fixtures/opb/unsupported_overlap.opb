@@ -1,0 +1,5 @@
+* #variable= 3 #constraint= 2 #equal= 0
+* nimbus original fixture: overlapping covers (x2 in both) are outside the supported disjoint-cover family.
+min: +1 x1 +1 x2 +1 x3 ;
++1 x1 +1 x2 >= 1 ;
++1 x2 +1 x3 >= 1 ;

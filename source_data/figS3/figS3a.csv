@@ -1,0 +1,11 @@
+size,lib,R,routes
+3,stabilizers,8,48
+5,stabilizers,24,160
+7,stabilizers,48,336
+9,stabilizers,80,576
+11,stabilizers,120,880
+3,stabilizers_logical_all,14,84
+5,stabilizers_logical_all,34,260
+7,stabilizers_logical_all,62,532
+9,stabilizers_logical_all,98,900
+11,stabilizers_logical_all,142,1364

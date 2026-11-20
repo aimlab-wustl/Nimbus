@@ -1,0 +1,4 @@
+* #variable= 3 #constraint= 2 #equal= 0
+* nimbus original fixture: x3 -> x1 and x3 -> x2 is a precedence DAG, not a chain.
++1 x1 -1 x3 >= 0 ;
++1 x2 -1 x3 >= 0 ;

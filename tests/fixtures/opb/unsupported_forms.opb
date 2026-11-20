@@ -1,0 +1,6 @@
+* #variable= 8 #constraint= 4 #equal= 0
+* nimbus original fixture: constraint forms outside the supported subset.
++2 x1 +3 x2 >= 3 ;
++1 x3 +1 x4 +1 x5 >= 2 ;
++1 x6 x7 >= 1 ;
++1 x8 -1 x8 >= 0 ;

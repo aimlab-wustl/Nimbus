@@ -1,0 +1,5 @@
+workload,label,instances,replicas,budget_log2,moves_R,break_even_iteration,break_even_fraction_of_run,cum_ratio_end,ratio_end,ratio_vs_recompute_all_max,rho_min,rho_max,rho_late,a_first_window,a_late,acceptance_floor_late,floor_below_one_over_rho,identity_max_rel_dev
+m30c,"matching, complete library, L = 30",5,640,24,435,165328,0.00985432,0.0121214,0.00103556,0.0103045,4.2646,5.07337,4.28418,0.890509,0.000252634,0.000233557,True,3.46655e-16
+m50p,"matching, path library, L = 50",3,384,26,49,0,0,0.00228562,0.00181605,0.00266826,0.14152,0.144481,0.14156,0.905843,0.0128871,0.0126114,True,2.65806e-16
+s11,"surface code, d = 11, p_err = 0.12",4,512,26,142,1715231,0.0255589,0.0606302,0.0347768,0.0281058,2.31078,4.23552,2.31441,0.920158,0.0150188,0.0150188,True,2.79208e-16
+pair2d,"2D +-J spin glass, single flips",4,256,26,256,935237,0.0139361,0.177929,0.16387,0.00729454,2,2,2,0.933701,0.081985,0.081985,True,0

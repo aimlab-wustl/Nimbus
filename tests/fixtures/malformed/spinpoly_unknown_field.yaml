@@ -1,0 +1,44 @@
+# Six-spin exact-cardinality toy (Results, Visualizing operating principle using a toy problem; Methods, An example toy problem).
+# Exactly three of six vertices are selected; completing triangle {1,2,3} rewards 4 and triangle {3,4,5}
+# rewards 7; vertex 6 completes neither. A selected vertex has s_i = +1:
+#   E0(s) = -4 prod_{i in {1,2,3}} (1+s_i)/2 - 7 prod_{i in {3,4,5}} (1+s_i)/2,   sum_i (1+s_i)/2 = 3.
+# Sign convention (Methods, Derivation of the transition-programmable architecture): E = E_const - sum_k J_k T_k with T_k = prod_{i in S_k} s_i,
+# so each `weight` below is J_k. Expansion: 13 nonconstant clauses (5 unary, 6 pair, 2 cubic); the first
+# triangle contributes J = 1/2 to each of its clauses and the second 7/8, so the shared unary clause s3 has
+# J = 1/2 + 7/8 = 11/8, and E_const = -1/2 - 7/8 = -11/8. Spin indices are 1-based (index_base: 1).
+# Start {1,2,3}: E = -4. Unique optimum {3,4,5}: E = -7. 20 feasible states.
+schema: nimbus.spinpoly/1
+name: six_spin_toy
+description: Paper six-spin exact-cardinality toy (two rewarded triples, choose 3 of 6)
+n_spins: 6
+n_clauses: 13
+index_base: 1
+spin_convention: plus_one_selected
+energy_convention: minus_J
+const: -11/8
+terms:
+  - {support: [1], weight: 1/2}
+  - {support: [2], weight: 1/2}
+  - {support: [3], weight: 11/8}
+  - {support: [4], weight: 7/8}
+  - {support: [5], weight: 7/8}
+  - {support: [1, 2], weight: 1/2}
+  - {support: [1, 3], weight: 1/2}
+  - {support: [2, 3], weight: 1/2}
+  - {support: [3, 4], weight: 7/8}
+  - {support: [3, 5], weight: 7/8}
+  - {support: [4, 5], weight: 7/8}
+  - {support: [1, 2, 3], weight: 1/2}
+  - {support: [3, 4, 5], weight: 7/8}
+constraints:
+  exact_cardinality:
+    - {spins: [1, 2, 3, 4, 5, 6], k: 3}
+labels: [v1, v2, v3, v4, v5, v6]
+metadata:
+  source: Results, Visualizing operating principle using a toy problem and Methods, An example toy problem
+  start_selection: [1, 2, 3]
+  optimal_selection: [3, 4, 5]
+  start_energy: -4
+  optimal_energy: -7
+  penalty_lambda: 6
+  barriers: {penalty_single_flip: 6, all_pair_exchanges: 4, with_double_exchange_shortcut: 0}

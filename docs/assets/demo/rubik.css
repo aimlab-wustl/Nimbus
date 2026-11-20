@@ -1,0 +1,38 @@
+#nimbus-rubik-demo {
+  margin: 1rem 0 1.5rem; padding: 1rem 1.1rem; border-radius: 0.9rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: linear-gradient(135deg, rgba(109, 93, 252, 0.06), rgba(34, 211, 238, 0.04));
+}
+#nimbus-rubik-demo .rk-stage { display: grid; grid-template-columns: 1fr 1.25fr; gap: 1.2rem; align-items: center; }
+#nimbus-rubik-demo .rk-3d { height: 15rem; display: grid; place-items: center; perspective: 900px; }
+#nimbus-rubik-demo .rk-cube {
+  --s: 8.4rem; width: var(--s); height: var(--s); position: relative; transform-style: preserve-3d;
+  animation: rk-spin 18s linear infinite;
+}
+@keyframes rk-spin { from { transform: rotateX(-28deg) rotateY(-35deg); } to { transform: rotateX(-28deg) rotateY(325deg); } }
+#nimbus-rubik-demo .rk-face {
+  position: absolute; inset: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; padding: 4px;
+  background: #111; border-radius: 6px; backface-visibility: hidden;
+}
+#nimbus-rubik-demo .rk-face i, #nimbus-rubik-demo .rk-nface i { display: block; border-radius: 3px; }
+#nimbus-rubik-demo .rk-F { transform: translateZ(calc(var(--s) / 2)); }
+#nimbus-rubik-demo .rk-B { transform: rotateY(180deg) translateZ(calc(var(--s) / 2)); }
+#nimbus-rubik-demo .rk-R { transform: rotateY(90deg) translateZ(calc(var(--s) / 2)); }
+#nimbus-rubik-demo .rk-L { transform: rotateY(-90deg) translateZ(calc(var(--s) / 2)); }
+#nimbus-rubik-demo .rk-U { transform: rotateX(90deg) translateZ(calc(var(--s) / 2)); }
+#nimbus-rubik-demo .rk-D { transform: rotateX(-90deg) translateZ(calc(var(--s) / 2)); }
+#nimbus-rubik-demo .rk-net { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, auto); gap: 4px; max-width: 22rem; justify-self: center; width: 100%; }
+#nimbus-rubik-demo .rk-nface { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; padding: 2px; background: #111; border-radius: 4px; aspect-ratio: 1; }
+#nimbus-rubik-demo .rk-nU { grid-area: 1 / 2; } #nimbus-rubik-demo .rk-nL { grid-area: 2 / 1; } #nimbus-rubik-demo .rk-nF { grid-area: 2 / 2; }
+#nimbus-rubik-demo .rk-nR { grid-area: 2 / 3; } #nimbus-rubik-demo .rk-nB { grid-area: 2 / 4; } #nimbus-rubik-demo .rk-nD { grid-area: 3 / 2; }
+#nimbus-rubik-demo .rk-stats { display: flex; flex-wrap: wrap; gap: 0.3rem 1.2rem; margin: 0.8rem 0 0.3rem; font-size: 0.72rem; color: var(--md-default-fg-color--light); }
+#nimbus-rubik-demo .rk-stats b, #nimbus-rubik-demo .rk-kinds b { color: var(--md-default-fg-color); font-variant-numeric: tabular-nums; }
+#nimbus-rubik-demo .rk-valid::before { content: "\2713 "; color: #2e9e5b; font-weight: 700; }
+#nimbus-rubik-demo .rk-kinds { display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; font-size: 0.66rem; color: var(--md-default-fg-color--light); margin-bottom: 0.6rem; }
+#nimbus-rubik-demo .rk-kinds .rk-sc b { color: var(--md-typeset-a-color); }
+#nimbus-rubik-demo .rk-controls { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center; font-size: 0.7rem; }
+#nimbus-rubik-demo .rk-controls .md-button { margin: 0; padding: 0.3em 1.1em; font-size: 0.7rem; }
+#nimbus-rubik-demo.rk-done .rk-cube { animation-duration: 6s; }
+#nimbus-rubik-demo.rk-done .rk-E { color: #2e9e5b; }
+@media (max-width: 640px) { #nimbus-rubik-demo .rk-stage { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { #nimbus-rubik-demo .rk-cube { animation: none; transform: rotateX(-28deg) rotateY(-35deg); } }

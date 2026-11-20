@@ -1,0 +1,36 @@
+#nimbus-matching-demo {
+  margin: 1rem 0 1.5rem;
+  padding: 0.8rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+}
+#nimbus-matching-demo .cd-stage { display: flex; gap: 0.8rem; align-items: center; }
+#nimbus-matching-demo .cd-points { flex: 3 1 0; min-width: 0; touch-action: none; }
+#nimbus-matching-demo .cd-side { flex: 1 1 0; min-width: 7rem; text-align: center; }
+#nimbus-matching-demo .cd-matrix { width: 100%; max-width: 12rem; }
+#nimbus-matching-demo .cd-matrix-label { font-size: 0.62rem; color: var(--md-default-fg-color--light); }
+#nimbus-matching-demo .cd-title { font-size: 13px; text-anchor: middle; fill: var(--md-default-fg-color--light); }
+#nimbus-matching-demo .cd-panel { fill: none; stroke: var(--md-default-fg-color--lightest); }
+#nimbus-matching-demo .cd-line { stroke: var(--md-default-fg-color--lighter); stroke-width: 1.4; stroke-dasharray: 4 3; }
+#nimbus-matching-demo .cd-line.ok { stroke-width: 2; stroke-dasharray: none; opacity: 0.85; }
+#nimbus-matching-demo .cd-line.hot { stroke-width: 3; }
+#nimbus-matching-demo .cd-pt { stroke: var(--md-default-bg-color); stroke-width: 2; cursor: grab; }
+#nimbus-matching-demo .cd-cell { fill: var(--md-default-fg-color--lightest); }
+#nimbus-matching-demo .cd-stats {
+  display: flex; flex-wrap: wrap; gap: 0.3rem 1.2rem; margin: 0.6rem 0 0.4rem;
+  font-size: 0.7rem; color: var(--md-default-fg-color--light);
+}
+#nimbus-matching-demo .cd-stats b { color: var(--md-default-fg-color); font-variant-numeric: tabular-nums; }
+#nimbus-matching-demo .cd-ok::before { content: "\2713 "; color: #2e9e5b; font-weight: 700; }
+#nimbus-matching-demo .cd-controls { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center; font-size: 0.7rem; }
+#nimbus-matching-demo .cd-controls .md-button { margin: 0; padding: 0.3em 1.1em; font-size: 0.7rem; }
+#nimbus-matching-demo .cd-controls select, #nimbus-matching-demo .cd-controls input { margin-left: 0.3rem; vertical-align: middle; }
+#nimbus-matching-demo .cd-controls select {
+  color: var(--md-default-fg-color); background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter); border-radius: 4px; padding: 0.1rem 0.2rem;
+}
+@media (max-width: 600px) {
+  #nimbus-matching-demo .cd-stage { flex-direction: column; align-items: stretch; }
+  #nimbus-matching-demo .cd-points { flex: none; width: 100%; height: auto; }
+  #nimbus-matching-demo .cd-side { width: 55%; align-self: center; }
+}

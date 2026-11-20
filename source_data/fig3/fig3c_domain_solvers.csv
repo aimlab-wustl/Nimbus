@@ -1,0 +1,4 @@
+solver,pairs,restarts_per_pair,p_restart_optimum,p_restart_optimum_ci_low,p_restart_optimum_ci_high
+Adapt-BCAGM3,40,500,0.4977,0.40155,0.60051
+BCAGM3,40,500,0.49625,0.39613,0.59907
+RRWHM,40,500,0.52875,0.4217,0.63375

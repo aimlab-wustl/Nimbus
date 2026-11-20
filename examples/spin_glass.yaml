@@ -1,0 +1,19 @@
+# Unconstrained problem: 2D +-J spin glass on an 8 x 8 torus. Every spin is free, so the move library is single
+# spin flips (the default library of the spinpoly adapter).
+schema: nimbus.run/1
+name: spin_glass
+problem:
+  kind: spinpoly
+  path: problems/spin_glass_8x8.spinpoly.yaml   # made by examples/make_spin_glass.py
+transitions:
+  library: default
+annealing:
+  schedule: fn_endpoints
+  params: auto
+  calibration: {rule: acceptance, p_start: 0.8, p_end: 0.01, eta: 0.1, min_ratio: 2, min_ratio_mode: lower_end}
+  attempts: 50000
+run:
+  seed: 1
+  replicas: 8
+backend:
+  name: cpu

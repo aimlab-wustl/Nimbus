@@ -1,0 +1,47 @@
+# Benchmark manifest (schema nimbus.benchmark_manifest/1), read by nimbus.experiments.fetch.
+#
+# Every entry pins: URL (GitHub raw URLs embed the 40-hex commit of their source), destination path
+# under the data root ($NIMBUS_DATA_ROOT, default <repo>/data), size in bytes, sha256 of the stored
+# bytes (compressed files stay compressed), source format, expected parser metadata, and optional
+# target / reference solution. Sets: "matching" (WILLOW-ObjectClass keypoints).
+#
+# Fetch:   python -m nimbus.experiments.fetch --set matching
+# Verify:  python -m nimbus.experiments.fetch --set matching --verify
+#
+# Field reference:
+#   id        unique entry id (also the default key in the lock file)
+#   sets      benchmark sets containing the entry
+#   source    key into `sources` (provenance, revision, license)
+#   url       download URL (https, or file:// for tests)
+#   path      POSIX path relative to the data root
+#   format    reader used to check `expected`: alist | text
+#   bytes     exact size (null = unknown: recorded in <data_root>/benchmarks.lock.json on first fetch)
+#   sha256    checksum of the stored bytes (null = recorded in the lock on first fetch)
+#   expected  metadata the parser must reproduce (e.g. alist n, m, nnz, GF(2) rank)
+#   target    {type: optimal | best_known, value, certified, source}; a target number is not a certificate
+#   reference id of an entry holding a reference solution, if one is published
+#   notes     free text
+schema: nimbus.benchmark_manifest/1
+description: Public benchmark files for nimbus (WILLOW-ObjectClass keypoints)
+
+sources:
+  willow_objectclass:
+    name: WILLOW-ObjectClass (Cho, Alahari, Ponce, ICCV 2013)
+    homepage: https://www.di.ens.fr/willow/research/graphlearning/
+    license: "None stated (README only asks to cite the ICCV 2013 paper). Images come from Caltech-256 and PASCAL VOC2007. Not redistributed: fetched on demand into data/, never committed."
+    citation: "M. Cho, K. Alahari, J. Ponce, Learning Graphs to Match, ICCV 2013"
+    notes: "Zip of 5 classes (Car 40, Duck 50, Face 109, Motorbike 40, Winebottle 66 images), each image with a .mat file holding pts_coord (2 x 10) keypoints that are consistent within a class. Extracted next to the zip under data/willow/."
+
+entries:
+
+  # ---- WILLOW-ObjectClass (triangle matching application) ----
+  - id: willow/objectclass.zip
+    sets: ["matching"]
+    source: willow_objectclass
+    url: http://www.di.ens.fr/willow/research/graphlearning/WILLOW-ObjectClass_dataset.zip
+    path: willow/WILLOW-ObjectClass_dataset.zip
+    format: text
+    bytes: 68635332
+    sha256: "f4685d2e4bbda3bc28197fa322dca9e6e594c4ca9f04183fe1d43accc9191576"
+    expected: {contains: []}
+    notes: "65 MB zip; extract in place (unzip) to get data/willow/WILLOW-ObjectClass/<class>/*.mat|png"

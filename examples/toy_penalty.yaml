@@ -1,0 +1,22 @@
+# Single-spin-flip penalty baseline: E0 + lambda*(n+ - 3)^2, lambda = 6 (the
+# example strength of the paper; barrier 6 along single flips).
+schema: nimbus.run/1
+name: toy_penalty
+problem:
+  kind: toy_cardinality
+transitions:
+  # unused by the penalty baseline path (it builds its own single-flip library); kept so the
+  # config validates the same way as the architecture examples.
+  library: pair_exchanges
+annealing:
+  schedule: fn_endpoints
+  params: {tau_start: 3.0, tau_end: 0.05, eta: 0.1}
+  attempts: 500
+run:
+  seed: 3
+  replicas: 2
+backend:
+  name: emulation
+baseline:
+  kind: penalty
+  options: {lam: 6.0}

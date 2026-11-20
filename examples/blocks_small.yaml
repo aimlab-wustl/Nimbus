@@ -1,0 +1,19 @@
+# One block of every supported constraint family in one problem (nimbus.spinpoly/1 input): exact cardinality,
+# precedence chain, covering (at least one), packing (at most one), contiguity, and one free spin.
+schema: nimbus.run/1
+name: blocks_small
+problem:
+  kind: spinpoly
+  path: problems/blocks_small.spinpoly.yaml
+transitions:
+  library: default
+annealing:
+  schedule: fn_endpoints
+  params: auto
+  calibration: {rule: acceptance, p_start: 0.8, p_end: 0.01, eta: 0.1}
+  attempts: 400
+run:
+  seed: 1
+  replicas: 2
+backend:
+  name: emulation

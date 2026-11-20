@@ -1,0 +1,1501 @@
+# real time: decoder d p chunk R K; baselines d p chunk names
+decoder 5 0.025 0 16 12
+decoder 5 0.025 1 16 12
+decoder 5 0.025 2 16 12
+decoder 5 0.025 3 16 12
+decoder 5 0.025 4 16 12
+decoder 5 0.025 5 16 12
+decoder 5 0.025 6 16 12
+decoder 5 0.025 7 16 12
+decoder 5 0.025 8 16 12
+decoder 5 0.025 9 16 12
+decoder 5 0.025 10 16 12
+decoder 5 0.025 11 16 12
+decoder 5 0.03 0 16 12
+decoder 5 0.03 1 16 12
+decoder 5 0.03 2 16 12
+decoder 5 0.03 3 16 12
+decoder 5 0.03 4 16 12
+decoder 5 0.03 5 16 12
+decoder 5 0.03 6 16 12
+decoder 5 0.03 7 16 12
+decoder 5 0.03 8 16 12
+decoder 5 0.03 9 16 12
+decoder 5 0.03 10 16 12
+decoder 5 0.03 11 16 12
+decoder 5 0.035 0 16 12
+decoder 5 0.035 1 16 12
+decoder 5 0.035 2 16 12
+decoder 5 0.035 3 16 12
+decoder 5 0.035 4 16 12
+decoder 5 0.035 5 16 12
+decoder 5 0.035 6 16 12
+decoder 5 0.035 7 16 12
+decoder 5 0.035 8 16 12
+decoder 5 0.035 9 16 12
+decoder 5 0.035 10 16 12
+decoder 5 0.035 11 16 12
+decoder 5 0.04 0 16 12
+decoder 5 0.04 1 16 12
+decoder 5 0.04 2 16 12
+decoder 5 0.04 3 16 12
+decoder 5 0.04 4 16 12
+decoder 5 0.04 5 16 12
+decoder 5 0.04 6 16 12
+decoder 5 0.04 7 16 12
+decoder 5 0.04 8 16 12
+decoder 5 0.04 9 16 12
+decoder 5 0.04 10 16 12
+decoder 5 0.04 11 16 12
+decoder 5 0.0425 0 16 12
+decoder 5 0.0425 1 16 12
+decoder 5 0.0425 2 16 12
+decoder 5 0.0425 3 16 12
+decoder 5 0.0425 4 16 12
+decoder 5 0.0425 5 16 12
+decoder 5 0.0425 6 16 12
+decoder 5 0.0425 7 16 12
+decoder 5 0.0425 8 16 12
+decoder 5 0.0425 9 16 12
+decoder 5 0.0425 10 16 12
+decoder 5 0.0425 11 16 12
+decoder 5 0.045 0 16 12
+decoder 5 0.045 1 16 12
+decoder 5 0.045 2 16 12
+decoder 5 0.045 3 16 12
+decoder 5 0.045 4 16 12
+decoder 5 0.045 5 16 12
+decoder 5 0.045 6 16 12
+decoder 5 0.045 7 16 12
+decoder 5 0.045 8 16 12
+decoder 5 0.045 9 16 12
+decoder 5 0.045 10 16 12
+decoder 5 0.045 11 16 12
+decoder 5 0.0475 0 16 12
+decoder 5 0.0475 1 16 12
+decoder 5 0.0475 2 16 12
+decoder 5 0.0475 3 16 12
+decoder 5 0.0475 4 16 12
+decoder 5 0.0475 5 16 12
+decoder 5 0.0475 6 16 12
+decoder 5 0.0475 7 16 12
+decoder 5 0.0475 8 16 12
+decoder 5 0.0475 9 16 12
+decoder 5 0.0475 10 16 12
+decoder 5 0.0475 11 16 12
+decoder 5 0.05 0 16 12
+decoder 5 0.05 1 16 12
+decoder 5 0.05 2 16 12
+decoder 5 0.05 3 16 12
+decoder 5 0.05 4 16 12
+decoder 5 0.05 5 16 12
+decoder 5 0.05 6 16 12
+decoder 5 0.05 7 16 12
+decoder 5 0.05 8 16 12
+decoder 5 0.05 9 16 12
+decoder 5 0.05 10 16 12
+decoder 5 0.05 11 16 12
+decoder 7 0.025 0 16 12
+decoder 7 0.025 1 16 12
+decoder 7 0.025 2 16 12
+decoder 7 0.025 3 16 12
+decoder 7 0.025 4 16 12
+decoder 7 0.025 5 16 12
+decoder 7 0.025 6 16 12
+decoder 7 0.025 7 16 12
+decoder 7 0.025 8 16 12
+decoder 7 0.025 9 16 12
+decoder 7 0.025 10 16 12
+decoder 7 0.025 11 16 12
+decoder 7 0.03 0 16 12
+decoder 7 0.03 1 16 12
+decoder 7 0.03 2 16 12
+decoder 7 0.03 3 16 12
+decoder 7 0.03 4 16 12
+decoder 7 0.03 5 16 12
+decoder 7 0.03 6 16 12
+decoder 7 0.03 7 16 12
+decoder 7 0.03 8 16 12
+decoder 7 0.03 9 16 12
+decoder 7 0.03 10 16 12
+decoder 7 0.03 11 16 12
+decoder 7 0.035 0 16 12
+decoder 7 0.035 1 16 12
+decoder 7 0.035 2 16 12
+decoder 7 0.035 3 16 12
+decoder 7 0.035 4 16 12
+decoder 7 0.035 5 16 12
+decoder 7 0.035 6 16 12
+decoder 7 0.035 7 16 12
+decoder 7 0.035 8 16 12
+decoder 7 0.035 9 16 12
+decoder 7 0.035 10 16 12
+decoder 7 0.035 11 16 12
+decoder 7 0.04 0 16 12
+decoder 7 0.04 1 16 12
+decoder 7 0.04 2 16 12
+decoder 7 0.04 3 16 12
+decoder 7 0.04 4 16 12
+decoder 7 0.04 5 16 12
+decoder 7 0.04 6 16 12
+decoder 7 0.04 7 16 12
+decoder 7 0.04 8 16 12
+decoder 7 0.04 9 16 12
+decoder 7 0.04 10 16 12
+decoder 7 0.04 11 16 12
+decoder 7 0.0425 0 16 12
+decoder 7 0.0425 1 16 12
+decoder 7 0.0425 2 16 12
+decoder 7 0.0425 3 16 12
+decoder 7 0.0425 4 16 12
+decoder 7 0.0425 5 16 12
+decoder 7 0.0425 6 16 12
+decoder 7 0.0425 7 16 12
+decoder 7 0.0425 8 16 12
+decoder 7 0.0425 9 16 12
+decoder 7 0.0425 10 16 12
+decoder 7 0.0425 11 16 12
+decoder 7 0.0425 12 16 12
+decoder 7 0.0425 13 16 12
+decoder 7 0.0425 14 16 12
+decoder 7 0.0425 15 16 12
+decoder 7 0.0425 16 16 12
+decoder 7 0.0425 17 16 12
+decoder 7 0.0425 18 16 12
+decoder 7 0.0425 19 16 12
+decoder 7 0.0425 20 16 12
+decoder 7 0.0425 21 16 12
+decoder 7 0.0425 22 16 12
+decoder 7 0.0425 23 16 12
+decoder 7 0.0425 24 16 12
+decoder 7 0.0425 25 16 12
+decoder 7 0.0425 26 16 12
+decoder 7 0.0425 27 16 12
+decoder 7 0.0425 28 16 12
+decoder 7 0.0425 29 16 12
+decoder 7 0.0425 30 16 12
+decoder 7 0.0425 31 16 12
+decoder 7 0.0425 32 16 12
+decoder 7 0.0425 33 16 12
+decoder 7 0.0425 34 16 12
+decoder 7 0.0425 35 16 12
+decoder 7 0.045 0 16 12
+decoder 7 0.045 1 16 12
+decoder 7 0.045 2 16 12
+decoder 7 0.045 3 16 12
+decoder 7 0.045 4 16 12
+decoder 7 0.045 5 16 12
+decoder 7 0.045 6 16 12
+decoder 7 0.045 7 16 12
+decoder 7 0.045 8 16 12
+decoder 7 0.045 9 16 12
+decoder 7 0.045 10 16 12
+decoder 7 0.045 11 16 12
+decoder 7 0.045 12 16 12
+decoder 7 0.045 13 16 12
+decoder 7 0.045 14 16 12
+decoder 7 0.045 15 16 12
+decoder 7 0.045 16 16 12
+decoder 7 0.045 17 16 12
+decoder 7 0.045 18 16 12
+decoder 7 0.045 19 16 12
+decoder 7 0.045 20 16 12
+decoder 7 0.045 21 16 12
+decoder 7 0.045 22 16 12
+decoder 7 0.045 23 16 12
+decoder 7 0.045 24 16 12
+decoder 7 0.045 25 16 12
+decoder 7 0.045 26 16 12
+decoder 7 0.045 27 16 12
+decoder 7 0.045 28 16 12
+decoder 7 0.045 29 16 12
+decoder 7 0.045 30 16 12
+decoder 7 0.045 31 16 12
+decoder 7 0.045 32 16 12
+decoder 7 0.045 33 16 12
+decoder 7 0.045 34 16 12
+decoder 7 0.045 35 16 12
+decoder 7 0.0475 0 16 12
+decoder 7 0.0475 1 16 12
+decoder 7 0.0475 2 16 12
+decoder 7 0.0475 3 16 12
+decoder 7 0.0475 4 16 12
+decoder 7 0.0475 5 16 12
+decoder 7 0.0475 6 16 12
+decoder 7 0.0475 7 16 12
+decoder 7 0.0475 8 16 12
+decoder 7 0.0475 9 16 12
+decoder 7 0.0475 10 16 12
+decoder 7 0.0475 11 16 12
+decoder 7 0.0475 12 16 12
+decoder 7 0.0475 13 16 12
+decoder 7 0.0475 14 16 12
+decoder 7 0.0475 15 16 12
+decoder 7 0.0475 16 16 12
+decoder 7 0.0475 17 16 12
+decoder 7 0.0475 18 16 12
+decoder 7 0.0475 19 16 12
+decoder 7 0.0475 20 16 12
+decoder 7 0.0475 21 16 12
+decoder 7 0.0475 22 16 12
+decoder 7 0.0475 23 16 12
+decoder 7 0.0475 24 16 12
+decoder 7 0.0475 25 16 12
+decoder 7 0.0475 26 16 12
+decoder 7 0.0475 27 16 12
+decoder 7 0.0475 28 16 12
+decoder 7 0.0475 29 16 12
+decoder 7 0.0475 30 16 12
+decoder 7 0.0475 31 16 12
+decoder 7 0.0475 32 16 12
+decoder 7 0.0475 33 16 12
+decoder 7 0.0475 34 16 12
+decoder 7 0.0475 35 16 12
+decoder 7 0.05 0 16 12
+decoder 7 0.05 1 16 12
+decoder 7 0.05 2 16 12
+decoder 7 0.05 3 16 12
+decoder 7 0.05 4 16 12
+decoder 7 0.05 5 16 12
+decoder 7 0.05 6 16 12
+decoder 7 0.05 7 16 12
+decoder 7 0.05 8 16 12
+decoder 7 0.05 9 16 12
+decoder 7 0.05 10 16 12
+decoder 7 0.05 11 16 12
+decoder 9 0.025 0 24 12
+decoder 9 0.025 1 24 12
+decoder 9 0.025 2 24 12
+decoder 9 0.025 3 24 12
+decoder 9 0.025 4 24 12
+decoder 9 0.025 5 24 12
+decoder 9 0.025 6 24 12
+decoder 9 0.025 7 24 12
+decoder 9 0.025 8 24 12
+decoder 9 0.025 9 24 12
+decoder 9 0.025 10 24 12
+decoder 9 0.025 11 24 12
+decoder 9 0.03 0 16 12
+decoder 9 0.03 0 24 9
+decoder 9 0.03 0 24 10
+decoder 9 0.03 0 24 11
+decoder 9 0.03 0 24 12
+decoder 9 0.03 0 24 13
+decoder 9 0.03 1 16 12
+decoder 9 0.03 1 24 9
+decoder 9 0.03 1 24 10
+decoder 9 0.03 1 24 11
+decoder 9 0.03 1 24 12
+decoder 9 0.03 1 24 13
+decoder 9 0.03 2 16 12
+decoder 9 0.03 2 24 9
+decoder 9 0.03 2 24 10
+decoder 9 0.03 2 24 11
+decoder 9 0.03 2 24 12
+decoder 9 0.03 2 24 13
+decoder 9 0.03 3 16 12
+decoder 9 0.03 3 24 9
+decoder 9 0.03 3 24 10
+decoder 9 0.03 3 24 11
+decoder 9 0.03 3 24 12
+decoder 9 0.03 3 24 13
+decoder 9 0.03 4 16 12
+decoder 9 0.03 4 24 9
+decoder 9 0.03 4 24 10
+decoder 9 0.03 4 24 11
+decoder 9 0.03 4 24 12
+decoder 9 0.03 4 24 13
+decoder 9 0.03 5 16 12
+decoder 9 0.03 5 24 9
+decoder 9 0.03 5 24 10
+decoder 9 0.03 5 24 11
+decoder 9 0.03 5 24 12
+decoder 9 0.03 5 24 13
+decoder 9 0.03 6 16 12
+decoder 9 0.03 6 24 9
+decoder 9 0.03 6 24 10
+decoder 9 0.03 6 24 11
+decoder 9 0.03 6 24 12
+decoder 9 0.03 6 24 13
+decoder 9 0.03 7 16 12
+decoder 9 0.03 7 24 9
+decoder 9 0.03 7 24 10
+decoder 9 0.03 7 24 11
+decoder 9 0.03 7 24 12
+decoder 9 0.03 7 24 13
+decoder 9 0.03 8 16 12
+decoder 9 0.03 8 24 9
+decoder 9 0.03 8 24 10
+decoder 9 0.03 8 24 11
+decoder 9 0.03 8 24 12
+decoder 9 0.03 8 24 13
+decoder 9 0.03 9 16 12
+decoder 9 0.03 9 24 9
+decoder 9 0.03 9 24 10
+decoder 9 0.03 9 24 11
+decoder 9 0.03 9 24 12
+decoder 9 0.03 9 24 13
+decoder 9 0.03 10 16 12
+decoder 9 0.03 10 24 9
+decoder 9 0.03 10 24 10
+decoder 9 0.03 10 24 11
+decoder 9 0.03 10 24 12
+decoder 9 0.03 10 24 13
+decoder 9 0.03 11 16 12
+decoder 9 0.03 11 24 9
+decoder 9 0.03 11 24 10
+decoder 9 0.03 11 24 11
+decoder 9 0.03 11 24 12
+decoder 9 0.03 11 24 13
+decoder 9 0.035 0 24 12
+decoder 9 0.035 1 24 12
+decoder 9 0.035 2 24 12
+decoder 9 0.035 3 24 12
+decoder 9 0.035 4 24 12
+decoder 9 0.035 5 24 12
+decoder 9 0.035 6 24 12
+decoder 9 0.035 7 24 12
+decoder 9 0.035 8 24 12
+decoder 9 0.035 9 24 12
+decoder 9 0.035 10 24 12
+decoder 9 0.035 11 24 12
+decoder 9 0.04 0 24 12
+decoder 9 0.04 1 24 12
+decoder 9 0.04 2 24 12
+decoder 9 0.04 3 24 12
+decoder 9 0.04 4 24 12
+decoder 9 0.04 5 24 12
+decoder 9 0.04 6 24 12
+decoder 9 0.04 7 24 12
+decoder 9 0.04 8 24 12
+decoder 9 0.04 9 24 12
+decoder 9 0.04 10 24 12
+decoder 9 0.04 11 24 12
+decoder 9 0.0425 0 24 12
+decoder 9 0.0425 1 24 12
+decoder 9 0.0425 2 24 12
+decoder 9 0.0425 3 24 12
+decoder 9 0.0425 4 24 12
+decoder 9 0.0425 5 24 12
+decoder 9 0.0425 6 24 12
+decoder 9 0.0425 7 24 12
+decoder 9 0.0425 8 24 12
+decoder 9 0.0425 9 24 12
+decoder 9 0.0425 10 24 12
+decoder 9 0.0425 11 24 12
+decoder 9 0.0425 12 24 12
+decoder 9 0.0425 13 24 12
+decoder 9 0.0425 14 24 12
+decoder 9 0.0425 15 24 12
+decoder 9 0.0425 16 24 12
+decoder 9 0.0425 17 24 12
+decoder 9 0.0425 18 24 12
+decoder 9 0.0425 19 24 12
+decoder 9 0.0425 20 24 12
+decoder 9 0.0425 21 24 12
+decoder 9 0.0425 22 24 12
+decoder 9 0.0425 23 24 12
+decoder 9 0.0425 24 24 12
+decoder 9 0.0425 25 24 12
+decoder 9 0.0425 26 24 12
+decoder 9 0.0425 27 24 12
+decoder 9 0.0425 28 24 12
+decoder 9 0.0425 29 24 12
+decoder 9 0.0425 30 24 12
+decoder 9 0.0425 31 24 12
+decoder 9 0.0425 32 24 12
+decoder 9 0.0425 33 24 12
+decoder 9 0.0425 34 24 12
+decoder 9 0.0425 35 24 12
+decoder 9 0.045 0 24 12
+decoder 9 0.045 1 24 12
+decoder 9 0.045 2 24 12
+decoder 9 0.045 3 24 12
+decoder 9 0.045 4 24 12
+decoder 9 0.045 5 24 12
+decoder 9 0.045 6 24 12
+decoder 9 0.045 7 24 12
+decoder 9 0.045 8 24 12
+decoder 9 0.045 9 24 12
+decoder 9 0.045 10 24 12
+decoder 9 0.045 11 24 12
+decoder 9 0.045 12 24 12
+decoder 9 0.045 13 24 12
+decoder 9 0.045 14 24 12
+decoder 9 0.045 15 24 12
+decoder 9 0.045 16 24 12
+decoder 9 0.045 17 24 12
+decoder 9 0.045 18 24 12
+decoder 9 0.045 19 24 12
+decoder 9 0.045 20 24 12
+decoder 9 0.045 21 24 12
+decoder 9 0.045 22 24 12
+decoder 9 0.045 23 24 12
+decoder 9 0.045 24 24 12
+decoder 9 0.045 25 24 12
+decoder 9 0.045 26 24 12
+decoder 9 0.045 27 24 12
+decoder 9 0.045 28 24 12
+decoder 9 0.045 29 24 12
+decoder 9 0.045 30 24 12
+decoder 9 0.045 31 24 12
+decoder 9 0.045 32 24 12
+decoder 9 0.045 33 24 12
+decoder 9 0.045 34 24 12
+decoder 9 0.045 35 24 12
+decoder 9 0.0475 0 24 12
+decoder 9 0.0475 1 24 12
+decoder 9 0.0475 2 24 12
+decoder 9 0.0475 3 24 12
+decoder 9 0.0475 4 24 12
+decoder 9 0.0475 5 24 12
+decoder 9 0.0475 6 24 12
+decoder 9 0.0475 7 24 12
+decoder 9 0.0475 8 24 12
+decoder 9 0.0475 9 24 12
+decoder 9 0.0475 10 24 12
+decoder 9 0.0475 11 24 12
+decoder 9 0.0475 12 24 12
+decoder 9 0.0475 13 24 12
+decoder 9 0.0475 14 24 12
+decoder 9 0.0475 15 24 12
+decoder 9 0.0475 16 24 12
+decoder 9 0.0475 17 24 12
+decoder 9 0.0475 18 24 12
+decoder 9 0.0475 19 24 12
+decoder 9 0.0475 20 24 12
+decoder 9 0.0475 21 24 12
+decoder 9 0.0475 22 24 12
+decoder 9 0.0475 23 24 12
+decoder 9 0.0475 24 24 12
+decoder 9 0.0475 25 24 12
+decoder 9 0.0475 26 24 12
+decoder 9 0.0475 27 24 12
+decoder 9 0.0475 28 24 12
+decoder 9 0.0475 29 24 12
+decoder 9 0.0475 30 24 12
+decoder 9 0.0475 31 24 12
+decoder 9 0.0475 32 24 12
+decoder 9 0.0475 33 24 12
+decoder 9 0.0475 34 24 12
+decoder 9 0.0475 35 24 12
+decoder 9 0.05 0 24 12
+decoder 9 0.05 1 24 12
+decoder 9 0.05 2 24 12
+decoder 9 0.05 3 24 12
+decoder 9 0.05 4 24 12
+decoder 9 0.05 5 24 12
+decoder 9 0.05 6 24 12
+decoder 9 0.05 7 24 12
+decoder 9 0.05 8 24 12
+decoder 9 0.05 9 24 12
+decoder 9 0.05 10 24 12
+decoder 9 0.05 11 24 12
+decoder 11 0.025 0 24 12
+decoder 11 0.025 1 24 12
+decoder 11 0.025 2 24 12
+decoder 11 0.025 3 24 12
+decoder 11 0.025 4 24 12
+decoder 11 0.025 5 24 12
+decoder 11 0.025 6 24 12
+decoder 11 0.025 7 24 12
+decoder 11 0.025 8 24 12
+decoder 11 0.025 9 24 12
+decoder 11 0.025 10 24 12
+decoder 11 0.025 11 24 12
+decoder 11 0.03 0 24 12
+decoder 11 0.03 1 24 12
+decoder 11 0.03 2 24 12
+decoder 11 0.03 3 24 12
+decoder 11 0.03 4 24 12
+decoder 11 0.03 5 24 12
+decoder 11 0.03 6 24 12
+decoder 11 0.03 7 24 12
+decoder 11 0.03 8 24 12
+decoder 11 0.03 9 24 12
+decoder 11 0.03 10 24 12
+decoder 11 0.03 11 24 12
+decoder 11 0.035 0 24 12
+decoder 11 0.035 1 24 12
+decoder 11 0.035 2 24 12
+decoder 11 0.035 3 24 12
+decoder 11 0.035 4 24 12
+decoder 11 0.035 5 24 12
+decoder 11 0.035 6 24 12
+decoder 11 0.035 7 24 12
+decoder 11 0.035 8 24 12
+decoder 11 0.035 9 24 12
+decoder 11 0.035 10 24 12
+decoder 11 0.035 11 24 12
+decoder 11 0.04 0 24 12
+decoder 11 0.04 1 24 12
+decoder 11 0.04 2 24 12
+decoder 11 0.04 3 24 12
+decoder 11 0.04 4 24 12
+decoder 11 0.04 5 24 12
+decoder 11 0.04 6 24 12
+decoder 11 0.04 7 24 12
+decoder 11 0.04 8 24 12
+decoder 11 0.04 9 24 12
+decoder 11 0.04 10 24 12
+decoder 11 0.04 11 24 12
+baselines 11 0.025 0 pm,pmc,bpm,bp
+baselines 11 0.025 1 pm,pmc,bpm,bp
+baselines 11 0.025 2 pm,pmc,bpm,bp
+baselines 11 0.025 3 pm,pmc,bpm,bp
+baselines 11 0.025 4 pm,pmc,bpm,bp
+baselines 11 0.025 5 pm,pmc,bpm,bp
+baselines 11 0.025 6 pm,pmc,bpm,bp
+baselines 11 0.025 7 pm,pmc,bpm,bp
+baselines 11 0.025 8 pm,pmc,bpm,bp
+baselines 11 0.025 9 pm,pmc,bpm,bp
+baselines 11 0.025 10 pm,pmc,bpm,bp
+baselines 11 0.025 11 pm,pmc,bpm,bp
+baselines 11 0.03 0 pm,pmc,bpm,bp
+baselines 11 0.03 1 pm,pmc,bpm,bp
+baselines 11 0.03 2 pm,pmc,bpm,bp
+baselines 11 0.03 3 pm,pmc,bpm,bp
+baselines 11 0.03 4 pm,pmc,bpm,bp
+baselines 11 0.03 5 pm,pmc,bpm,bp
+baselines 11 0.03 6 pm,pmc,bpm,bp
+baselines 11 0.03 7 pm,pmc,bpm,bp
+baselines 11 0.03 8 pm,pmc,bpm,bp
+baselines 11 0.03 9 pm,pmc,bpm,bp
+baselines 11 0.03 10 pm,pmc,bpm,bp
+baselines 11 0.03 11 pm,pmc,bpm,bp
+baselines 11 0.035 0 pm,pmc,bpm,bp
+baselines 11 0.035 1 pm,pmc,bpm,bp
+baselines 11 0.035 2 pm,pmc,bpm,bp
+baselines 11 0.035 3 pm,pmc,bpm,bp
+baselines 11 0.035 4 pm,pmc,bpm,bp
+baselines 11 0.035 5 pm,pmc,bpm,bp
+baselines 11 0.035 6 pm,pmc,bpm,bp
+baselines 11 0.035 7 pm,pmc,bpm,bp
+baselines 11 0.035 8 pm,pmc,bpm,bp
+baselines 11 0.035 9 pm,pmc,bpm,bp
+baselines 11 0.035 10 pm,pmc,bpm,bp
+baselines 11 0.035 11 pm,pmc,bpm,bp
+baselines 11 0.04 0 pm,pmc,bpm,bp
+baselines 11 0.04 1 pm,pmc,bpm,bp
+baselines 11 0.04 2 pm,pmc,bpm,bp
+baselines 11 0.04 3 pm,pmc,bpm,bp
+baselines 11 0.04 4 pm,pmc,bpm,bp
+baselines 11 0.04 5 pm,pmc,bpm,bp
+baselines 11 0.04 6 pm,pmc,bpm,bp
+baselines 11 0.04 7 pm,pmc,bpm,bp
+baselines 11 0.04 8 pm,pmc,bpm,bp
+baselines 11 0.04 9 pm,pmc,bpm,bp
+baselines 11 0.04 10 pm,pmc,bpm,bp
+baselines 11 0.04 11 pm,pmc,bpm,bp
+baselines 9 0.025 0 pm,pmc,bpm,bp
+baselines 9 0.025 1 pm,pmc,bpm,bp
+baselines 9 0.025 2 pm,pmc,bpm,bp
+baselines 9 0.025 3 pm,pmc,bpm,bp
+baselines 9 0.025 4 pm,pmc,bpm,bp
+baselines 9 0.025 5 pm,pmc,bpm,bp
+baselines 9 0.025 6 pm,pmc,bpm,bp
+baselines 9 0.025 7 pm,pmc,bpm,bp
+baselines 9 0.025 8 pm,pmc,bpm,bp
+baselines 9 0.025 9 pm,pmc,bpm,bp
+baselines 9 0.025 10 pm,pmc,bpm,bp
+baselines 9 0.025 11 pm,pmc,bpm,bp
+baselines 9 0.03 0 pm,pmc,bpm,bp
+baselines 9 0.03 1 pm,pmc,bpm,bp
+baselines 9 0.03 2 pm,pmc,bpm,bp
+baselines 9 0.03 3 pm,pmc,bpm,bp
+baselines 9 0.03 4 pm,pmc,bpm,bp
+baselines 9 0.03 5 pm,pmc,bpm,bp
+baselines 9 0.03 6 pm,pmc,bpm,bp
+baselines 9 0.03 7 pm,pmc,bpm,bp
+baselines 9 0.03 8 pm,pmc,bpm,bp
+baselines 9 0.03 9 pm,pmc,bpm,bp
+baselines 9 0.03 10 pm,pmc,bpm,bp
+baselines 9 0.03 11 pm,pmc,bpm,bp
+baselines 9 0.035 0 pm,pmc,bpm,bp
+baselines 9 0.035 1 pm,pmc,bpm,bp
+baselines 9 0.035 2 pm,pmc,bpm,bp
+baselines 9 0.035 3 pm,pmc,bpm,bp
+baselines 9 0.035 4 pm,pmc,bpm,bp
+baselines 9 0.035 5 pm,pmc,bpm,bp
+baselines 9 0.035 6 pm,pmc,bpm,bp
+baselines 9 0.035 7 pm,pmc,bpm,bp
+baselines 9 0.035 8 pm,pmc,bpm,bp
+baselines 9 0.035 9 pm,pmc,bpm,bp
+baselines 9 0.035 10 pm,pmc,bpm,bp
+baselines 9 0.035 11 pm,pmc,bpm,bp
+baselines 9 0.04 0 pm,pmc,bpm,bp
+baselines 9 0.04 1 pm,pmc,bpm,bp
+baselines 9 0.04 2 pm,pmc,bpm,bp
+baselines 9 0.04 3 pm,pmc,bpm,bp
+baselines 9 0.04 4 pm,pmc,bpm,bp
+baselines 9 0.04 5 pm,pmc,bpm,bp
+baselines 9 0.04 6 pm,pmc,bpm,bp
+baselines 9 0.04 7 pm,pmc,bpm,bp
+baselines 9 0.04 8 pm,pmc,bpm,bp
+baselines 9 0.04 9 pm,pmc,bpm,bp
+baselines 9 0.04 10 pm,pmc,bpm,bp
+baselines 9 0.04 11 pm,pmc,bpm,bp
+baselines 9 0.0425 0 pm,pmc,bpm,bp
+baselines 9 0.0425 1 pm,pmc,bpm,bp
+baselines 9 0.0425 2 pm,pmc,bpm,bp
+baselines 9 0.0425 3 pm,pmc,bpm,bp
+baselines 9 0.0425 4 pm,pmc,bpm,bp
+baselines 9 0.0425 5 pm,pmc,bpm,bp
+baselines 9 0.0425 6 pm,pmc,bpm,bp
+baselines 9 0.0425 7 pm,pmc,bpm,bp
+baselines 9 0.0425 8 pm,pmc,bpm,bp
+baselines 9 0.0425 9 pm,pmc,bpm,bp
+baselines 9 0.0425 10 pm,pmc,bpm,bp
+baselines 9 0.0425 11 pm,pmc,bpm,bp
+baselines 9 0.0425 12 pm,pmc,bpm,bp
+baselines 9 0.0425 13 pm,pmc,bpm,bp
+baselines 9 0.0425 14 pm,pmc,bpm,bp
+baselines 9 0.0425 15 pm,pmc,bpm,bp
+baselines 9 0.0425 16 pm,pmc,bpm,bp
+baselines 9 0.0425 17 pm,pmc,bpm,bp
+baselines 9 0.0425 18 pm,pmc,bpm,bp
+baselines 9 0.0425 19 pm,pmc,bpm,bp
+baselines 9 0.0425 20 pm,pmc,bpm,bp
+baselines 9 0.0425 21 pm,pmc,bpm,bp
+baselines 9 0.0425 22 pm,pmc,bpm,bp
+baselines 9 0.0425 23 pm,pmc,bpm,bp
+baselines 9 0.0425 24 pm,pmc,bpm,bp
+baselines 9 0.0425 25 pm,pmc,bpm,bp
+baselines 9 0.0425 26 pm,pmc,bpm,bp
+baselines 9 0.0425 27 pm,pmc,bpm,bp
+baselines 9 0.0425 28 pm,pmc,bpm,bp
+baselines 9 0.0425 29 pm,pmc,bpm,bp
+baselines 9 0.0425 30 pm,pmc,bpm,bp
+baselines 9 0.0425 31 pm,pmc,bpm,bp
+baselines 9 0.0425 32 pm,pmc,bpm,bp
+baselines 9 0.0425 33 pm,pmc,bpm,bp
+baselines 9 0.0425 34 pm,pmc,bpm,bp
+baselines 9 0.0425 35 pm,pmc,bpm,bp
+baselines 9 0.045 0 pm,pmc,bpm,bp
+baselines 9 0.045 1 pm,pmc,bpm,bp
+baselines 9 0.045 2 pm,pmc,bpm,bp
+baselines 9 0.045 3 pm,pmc,bpm,bp
+baselines 9 0.045 4 pm,pmc,bpm,bp
+baselines 9 0.045 5 pm,pmc,bpm,bp
+baselines 9 0.045 6 pm,pmc,bpm,bp
+baselines 9 0.045 7 pm,pmc,bpm,bp
+baselines 9 0.045 8 pm,pmc,bpm,bp
+baselines 9 0.045 9 pm,pmc,bpm,bp
+baselines 9 0.045 10 pm,pmc,bpm,bp
+baselines 9 0.045 11 pm,pmc,bpm,bp
+baselines 9 0.045 12 pm,pmc,bpm,bp
+baselines 9 0.045 13 pm,pmc,bpm,bp
+baselines 9 0.045 14 pm,pmc,bpm,bp
+baselines 9 0.045 15 pm,pmc,bpm,bp
+baselines 9 0.045 16 pm,pmc,bpm,bp
+baselines 9 0.045 17 pm,pmc,bpm,bp
+baselines 9 0.045 18 pm,pmc,bpm,bp
+baselines 9 0.045 19 pm,pmc,bpm,bp
+baselines 9 0.045 20 pm,pmc,bpm,bp
+baselines 9 0.045 21 pm,pmc,bpm,bp
+baselines 9 0.045 22 pm,pmc,bpm,bp
+baselines 9 0.045 23 pm,pmc,bpm,bp
+baselines 9 0.045 24 pm,pmc,bpm,bp
+baselines 9 0.045 25 pm,pmc,bpm,bp
+baselines 9 0.045 26 pm,pmc,bpm,bp
+baselines 9 0.045 27 pm,pmc,bpm,bp
+baselines 9 0.045 28 pm,pmc,bpm,bp
+baselines 9 0.045 29 pm,pmc,bpm,bp
+baselines 9 0.045 30 pm,pmc,bpm,bp
+baselines 9 0.045 31 pm,pmc,bpm,bp
+baselines 9 0.045 32 pm,pmc,bpm,bp
+baselines 9 0.045 33 pm,pmc,bpm,bp
+baselines 9 0.045 34 pm,pmc,bpm,bp
+baselines 9 0.045 35 pm,pmc,bpm,bp
+baselines 9 0.0475 0 pm,pmc,bpm,bp
+baselines 9 0.0475 1 pm,pmc,bpm,bp
+baselines 9 0.0475 2 pm,pmc,bpm,bp
+baselines 9 0.0475 3 pm,pmc,bpm,bp
+baselines 9 0.0475 4 pm,pmc,bpm,bp
+baselines 9 0.0475 5 pm,pmc,bpm,bp
+baselines 9 0.0475 6 pm,pmc,bpm,bp
+baselines 9 0.0475 7 pm,pmc,bpm,bp
+baselines 9 0.0475 8 pm,pmc,bpm,bp
+baselines 9 0.0475 9 pm,pmc,bpm,bp
+baselines 9 0.0475 10 pm,pmc,bpm,bp
+baselines 9 0.0475 11 pm,pmc,bpm,bp
+baselines 9 0.0475 12 pm,pmc,bpm,bp
+baselines 9 0.0475 13 pm,pmc,bpm,bp
+baselines 9 0.0475 14 pm,pmc,bpm,bp
+baselines 9 0.0475 15 pm,pmc,bpm,bp
+baselines 9 0.0475 16 pm,pmc,bpm,bp
+baselines 9 0.0475 17 pm,pmc,bpm,bp
+baselines 9 0.0475 18 pm,pmc,bpm,bp
+baselines 9 0.0475 19 pm,pmc,bpm,bp
+baselines 9 0.0475 20 pm,pmc,bpm,bp
+baselines 9 0.0475 21 pm,pmc,bpm,bp
+baselines 9 0.0475 22 pm,pmc,bpm,bp
+baselines 9 0.0475 23 pm,pmc,bpm,bp
+baselines 9 0.0475 24 pm,pmc,bpm,bp
+baselines 9 0.0475 25 pm,pmc,bpm,bp
+baselines 9 0.0475 26 pm,pmc,bpm,bp
+baselines 9 0.0475 27 pm,pmc,bpm,bp
+baselines 9 0.0475 28 pm,pmc,bpm,bp
+baselines 9 0.0475 29 pm,pmc,bpm,bp
+baselines 9 0.0475 30 pm,pmc,bpm,bp
+baselines 9 0.0475 31 pm,pmc,bpm,bp
+baselines 9 0.0475 32 pm,pmc,bpm,bp
+baselines 9 0.0475 33 pm,pmc,bpm,bp
+baselines 9 0.0475 34 pm,pmc,bpm,bp
+baselines 9 0.0475 35 pm,pmc,bpm,bp
+baselines 9 0.05 0 pm,pmc,bpm,bp
+baselines 9 0.05 1 pm,pmc,bpm,bp
+baselines 9 0.05 2 pm,pmc,bpm,bp
+baselines 9 0.05 3 pm,pmc,bpm,bp
+baselines 9 0.05 4 pm,pmc,bpm,bp
+baselines 9 0.05 5 pm,pmc,bpm,bp
+baselines 9 0.05 6 pm,pmc,bpm,bp
+baselines 9 0.05 7 pm,pmc,bpm,bp
+baselines 9 0.05 8 pm,pmc,bpm,bp
+baselines 9 0.05 9 pm,pmc,bpm,bp
+baselines 9 0.05 10 pm,pmc,bpm,bp
+baselines 9 0.05 11 pm,pmc,bpm,bp
+baselines 7 0.025 0 pm,pmc,bpm,bp
+baselines 7 0.025 1 pm,pmc,bpm,bp
+baselines 7 0.025 2 pm,pmc,bpm,bp
+baselines 7 0.025 3 pm,pmc,bpm,bp
+baselines 7 0.025 4 pm,pmc,bpm,bp
+baselines 7 0.025 5 pm,pmc,bpm,bp
+baselines 7 0.025 6 pm,pmc,bpm,bp
+baselines 7 0.025 7 pm,pmc,bpm,bp
+baselines 7 0.025 8 pm,pmc,bpm,bp
+baselines 7 0.025 9 pm,pmc,bpm,bp
+baselines 7 0.025 10 pm,pmc,bpm,bp
+baselines 7 0.025 11 pm,pmc,bpm,bp
+baselines 7 0.03 0 pm,pmc,bpm,bp
+baselines 7 0.03 1 pm,pmc,bpm,bp
+baselines 7 0.03 2 pm,pmc,bpm,bp
+baselines 7 0.03 3 pm,pmc,bpm,bp
+baselines 7 0.03 4 pm,pmc,bpm,bp
+baselines 7 0.03 5 pm,pmc,bpm,bp
+baselines 7 0.03 6 pm,pmc,bpm,bp
+baselines 7 0.03 7 pm,pmc,bpm,bp
+baselines 7 0.03 8 pm,pmc,bpm,bp
+baselines 7 0.03 9 pm,pmc,bpm,bp
+baselines 7 0.03 10 pm,pmc,bpm,bp
+baselines 7 0.03 11 pm,pmc,bpm,bp
+baselines 7 0.035 0 pm,pmc,bpm,bp
+baselines 7 0.035 1 pm,pmc,bpm,bp
+baselines 7 0.035 2 pm,pmc,bpm,bp
+baselines 7 0.035 3 pm,pmc,bpm,bp
+baselines 7 0.035 4 pm,pmc,bpm,bp
+baselines 7 0.035 5 pm,pmc,bpm,bp
+baselines 7 0.035 6 pm,pmc,bpm,bp
+baselines 7 0.035 7 pm,pmc,bpm,bp
+baselines 7 0.035 8 pm,pmc,bpm,bp
+baselines 7 0.035 9 pm,pmc,bpm,bp
+baselines 7 0.035 10 pm,pmc,bpm,bp
+baselines 7 0.035 11 pm,pmc,bpm,bp
+baselines 7 0.04 0 pm,pmc,bpm,bp
+baselines 7 0.04 1 pm,pmc,bpm,bp
+baselines 7 0.04 2 pm,pmc,bpm,bp
+baselines 7 0.04 3 pm,pmc,bpm,bp
+baselines 7 0.04 4 pm,pmc,bpm,bp
+baselines 7 0.04 5 pm,pmc,bpm,bp
+baselines 7 0.04 6 pm,pmc,bpm,bp
+baselines 7 0.04 7 pm,pmc,bpm,bp
+baselines 7 0.04 8 pm,pmc,bpm,bp
+baselines 7 0.04 9 pm,pmc,bpm,bp
+baselines 7 0.04 10 pm,pmc,bpm,bp
+baselines 7 0.04 11 pm,pmc,bpm,bp
+baselines 7 0.0425 0 pm,pmc,bpm,bp
+baselines 7 0.0425 1 pm,pmc,bpm,bp
+baselines 7 0.0425 2 pm,pmc,bpm,bp
+baselines 7 0.0425 3 pm,pmc,bpm,bp
+baselines 7 0.0425 4 pm,pmc,bpm,bp
+baselines 7 0.0425 5 pm,pmc,bpm,bp
+baselines 7 0.0425 6 pm,pmc,bpm,bp
+baselines 7 0.0425 7 pm,pmc,bpm,bp
+baselines 7 0.0425 8 pm,pmc,bpm,bp
+baselines 7 0.0425 9 pm,pmc,bpm,bp
+baselines 7 0.0425 10 pm,pmc,bpm,bp
+baselines 7 0.0425 11 pm,pmc,bpm,bp
+baselines 7 0.0425 12 pm,pmc,bpm,bp
+baselines 7 0.0425 13 pm,pmc,bpm,bp
+baselines 7 0.0425 14 pm,pmc,bpm,bp
+baselines 7 0.0425 15 pm,pmc,bpm,bp
+baselines 7 0.0425 16 pm,pmc,bpm,bp
+baselines 7 0.0425 17 pm,pmc,bpm,bp
+baselines 7 0.0425 18 pm,pmc,bpm,bp
+baselines 7 0.0425 19 pm,pmc,bpm,bp
+baselines 7 0.0425 20 pm,pmc,bpm,bp
+baselines 7 0.0425 21 pm,pmc,bpm,bp
+baselines 7 0.0425 22 pm,pmc,bpm,bp
+baselines 7 0.0425 23 pm,pmc,bpm,bp
+baselines 7 0.0425 24 pm,pmc,bpm,bp
+baselines 7 0.0425 25 pm,pmc,bpm,bp
+baselines 7 0.0425 26 pm,pmc,bpm,bp
+baselines 7 0.0425 27 pm,pmc,bpm,bp
+baselines 7 0.0425 28 pm,pmc,bpm,bp
+baselines 7 0.0425 29 pm,pmc,bpm,bp
+baselines 7 0.0425 30 pm,pmc,bpm,bp
+baselines 7 0.0425 31 pm,pmc,bpm,bp
+baselines 7 0.0425 32 pm,pmc,bpm,bp
+baselines 7 0.0425 33 pm,pmc,bpm,bp
+baselines 7 0.0425 34 pm,pmc,bpm,bp
+baselines 7 0.0425 35 pm,pmc,bpm,bp
+baselines 7 0.045 0 pm,pmc,bpm,bp
+baselines 7 0.045 1 pm,pmc,bpm,bp
+baselines 7 0.045 2 pm,pmc,bpm,bp
+baselines 7 0.045 3 pm,pmc,bpm,bp
+baselines 7 0.045 4 pm,pmc,bpm,bp
+baselines 7 0.045 5 pm,pmc,bpm,bp
+baselines 7 0.045 6 pm,pmc,bpm,bp
+baselines 7 0.045 7 pm,pmc,bpm,bp
+baselines 7 0.045 8 pm,pmc,bpm,bp
+baselines 7 0.045 9 pm,pmc,bpm,bp
+baselines 7 0.045 10 pm,pmc,bpm,bp
+baselines 7 0.045 11 pm,pmc,bpm,bp
+baselines 7 0.045 12 pm,pmc,bpm,bp
+baselines 7 0.045 13 pm,pmc,bpm,bp
+baselines 7 0.045 14 pm,pmc,bpm,bp
+baselines 7 0.045 15 pm,pmc,bpm,bp
+baselines 7 0.045 16 pm,pmc,bpm,bp
+baselines 7 0.045 17 pm,pmc,bpm,bp
+baselines 7 0.045 18 pm,pmc,bpm,bp
+baselines 7 0.045 19 pm,pmc,bpm,bp
+baselines 7 0.045 20 pm,pmc,bpm,bp
+baselines 7 0.045 21 pm,pmc,bpm,bp
+baselines 7 0.045 22 pm,pmc,bpm,bp
+baselines 7 0.045 23 pm,pmc,bpm,bp
+baselines 7 0.045 24 pm,pmc,bpm,bp
+baselines 7 0.045 25 pm,pmc,bpm,bp
+baselines 7 0.045 26 pm,pmc,bpm,bp
+baselines 7 0.045 27 pm,pmc,bpm,bp
+baselines 7 0.045 28 pm,pmc,bpm,bp
+baselines 7 0.045 29 pm,pmc,bpm,bp
+baselines 7 0.045 30 pm,pmc,bpm,bp
+baselines 7 0.045 31 pm,pmc,bpm,bp
+baselines 7 0.045 32 pm,pmc,bpm,bp
+baselines 7 0.045 33 pm,pmc,bpm,bp
+baselines 7 0.045 34 pm,pmc,bpm,bp
+baselines 7 0.045 35 pm,pmc,bpm,bp
+baselines 7 0.0475 0 pm,pmc,bpm,bp
+baselines 7 0.0475 1 pm,pmc,bpm,bp
+baselines 7 0.0475 2 pm,pmc,bpm,bp
+baselines 7 0.0475 3 pm,pmc,bpm,bp
+baselines 7 0.0475 4 pm,pmc,bpm,bp
+baselines 7 0.0475 5 pm,pmc,bpm,bp
+baselines 7 0.0475 6 pm,pmc,bpm,bp
+baselines 7 0.0475 7 pm,pmc,bpm,bp
+baselines 7 0.0475 8 pm,pmc,bpm,bp
+baselines 7 0.0475 9 pm,pmc,bpm,bp
+baselines 7 0.0475 10 pm,pmc,bpm,bp
+baselines 7 0.0475 11 pm,pmc,bpm,bp
+baselines 7 0.0475 12 pm,pmc,bpm,bp
+baselines 7 0.0475 13 pm,pmc,bpm,bp
+baselines 7 0.0475 14 pm,pmc,bpm,bp
+baselines 7 0.0475 15 pm,pmc,bpm,bp
+baselines 7 0.0475 16 pm,pmc,bpm,bp
+baselines 7 0.0475 17 pm,pmc,bpm,bp
+baselines 7 0.0475 18 pm,pmc,bpm,bp
+baselines 7 0.0475 19 pm,pmc,bpm,bp
+baselines 7 0.0475 20 pm,pmc,bpm,bp
+baselines 7 0.0475 21 pm,pmc,bpm,bp
+baselines 7 0.0475 22 pm,pmc,bpm,bp
+baselines 7 0.0475 23 pm,pmc,bpm,bp
+baselines 7 0.0475 24 pm,pmc,bpm,bp
+baselines 7 0.0475 25 pm,pmc,bpm,bp
+baselines 7 0.0475 26 pm,pmc,bpm,bp
+baselines 7 0.0475 27 pm,pmc,bpm,bp
+baselines 7 0.0475 28 pm,pmc,bpm,bp
+baselines 7 0.0475 29 pm,pmc,bpm,bp
+baselines 7 0.0475 30 pm,pmc,bpm,bp
+baselines 7 0.0475 31 pm,pmc,bpm,bp
+baselines 7 0.0475 32 pm,pmc,bpm,bp
+baselines 7 0.0475 33 pm,pmc,bpm,bp
+baselines 7 0.0475 34 pm,pmc,bpm,bp
+baselines 7 0.0475 35 pm,pmc,bpm,bp
+baselines 7 0.05 0 pm,pmc,bpm,bp
+baselines 7 0.05 1 pm,pmc,bpm,bp
+baselines 7 0.05 2 pm,pmc,bpm,bp
+baselines 7 0.05 3 pm,pmc,bpm,bp
+baselines 7 0.05 4 pm,pmc,bpm,bp
+baselines 7 0.05 5 pm,pmc,bpm,bp
+baselines 7 0.05 6 pm,pmc,bpm,bp
+baselines 7 0.05 7 pm,pmc,bpm,bp
+baselines 7 0.05 8 pm,pmc,bpm,bp
+baselines 7 0.05 9 pm,pmc,bpm,bp
+baselines 7 0.05 10 pm,pmc,bpm,bp
+baselines 7 0.05 11 pm,pmc,bpm,bp
+baselines 5 0.025 0 pm,pmc,bpm,bp
+baselines 5 0.025 1 pm,pmc,bpm,bp
+baselines 5 0.025 2 pm,pmc,bpm,bp
+baselines 5 0.025 3 pm,pmc,bpm,bp
+baselines 5 0.025 4 pm,pmc,bpm,bp
+baselines 5 0.025 5 pm,pmc,bpm,bp
+baselines 5 0.025 6 pm,pmc,bpm,bp
+baselines 5 0.025 7 pm,pmc,bpm,bp
+baselines 5 0.025 8 pm,pmc,bpm,bp
+baselines 5 0.025 9 pm,pmc,bpm,bp
+baselines 5 0.025 10 pm,pmc,bpm,bp
+baselines 5 0.025 11 pm,pmc,bpm,bp
+baselines 5 0.03 0 pm,pmc,bpm,bp
+baselines 5 0.03 1 pm,pmc,bpm,bp
+baselines 5 0.03 2 pm,pmc,bpm,bp
+baselines 5 0.03 3 pm,pmc,bpm,bp
+baselines 5 0.03 4 pm,pmc,bpm,bp
+baselines 5 0.03 5 pm,pmc,bpm,bp
+baselines 5 0.03 6 pm,pmc,bpm,bp
+baselines 5 0.03 7 pm,pmc,bpm,bp
+baselines 5 0.03 8 pm,pmc,bpm,bp
+baselines 5 0.03 9 pm,pmc,bpm,bp
+baselines 5 0.03 10 pm,pmc,bpm,bp
+baselines 5 0.03 11 pm,pmc,bpm,bp
+baselines 5 0.035 0 pm,pmc,bpm,bp
+baselines 5 0.035 1 pm,pmc,bpm,bp
+baselines 5 0.035 2 pm,pmc,bpm,bp
+baselines 5 0.035 3 pm,pmc,bpm,bp
+baselines 5 0.035 4 pm,pmc,bpm,bp
+baselines 5 0.035 5 pm,pmc,bpm,bp
+baselines 5 0.035 6 pm,pmc,bpm,bp
+baselines 5 0.035 7 pm,pmc,bpm,bp
+baselines 5 0.035 8 pm,pmc,bpm,bp
+baselines 5 0.035 9 pm,pmc,bpm,bp
+baselines 5 0.035 10 pm,pmc,bpm,bp
+baselines 5 0.035 11 pm,pmc,bpm,bp
+baselines 5 0.04 0 pm,pmc,bpm,bp
+baselines 5 0.04 1 pm,pmc,bpm,bp
+baselines 5 0.04 2 pm,pmc,bpm,bp
+baselines 5 0.04 3 pm,pmc,bpm,bp
+baselines 5 0.04 4 pm,pmc,bpm,bp
+baselines 5 0.04 5 pm,pmc,bpm,bp
+baselines 5 0.04 6 pm,pmc,bpm,bp
+baselines 5 0.04 7 pm,pmc,bpm,bp
+baselines 5 0.04 8 pm,pmc,bpm,bp
+baselines 5 0.04 9 pm,pmc,bpm,bp
+baselines 5 0.04 10 pm,pmc,bpm,bp
+baselines 5 0.04 11 pm,pmc,bpm,bp
+baselines 5 0.0425 0 pm,pmc,bpm,bp
+baselines 5 0.0425 1 pm,pmc,bpm,bp
+baselines 5 0.0425 2 pm,pmc,bpm,bp
+baselines 5 0.0425 3 pm,pmc,bpm,bp
+baselines 5 0.0425 4 pm,pmc,bpm,bp
+baselines 5 0.0425 5 pm,pmc,bpm,bp
+baselines 5 0.0425 6 pm,pmc,bpm,bp
+baselines 5 0.0425 7 pm,pmc,bpm,bp
+baselines 5 0.0425 8 pm,pmc,bpm,bp
+baselines 5 0.0425 9 pm,pmc,bpm,bp
+baselines 5 0.0425 10 pm,pmc,bpm,bp
+baselines 5 0.0425 11 pm,pmc,bpm,bp
+baselines 5 0.045 0 pm,pmc,bpm,bp
+baselines 5 0.045 1 pm,pmc,bpm,bp
+baselines 5 0.045 2 pm,pmc,bpm,bp
+baselines 5 0.045 3 pm,pmc,bpm,bp
+baselines 5 0.045 4 pm,pmc,bpm,bp
+baselines 5 0.045 5 pm,pmc,bpm,bp
+baselines 5 0.045 6 pm,pmc,bpm,bp
+baselines 5 0.045 7 pm,pmc,bpm,bp
+baselines 5 0.045 8 pm,pmc,bpm,bp
+baselines 5 0.045 9 pm,pmc,bpm,bp
+baselines 5 0.045 10 pm,pmc,bpm,bp
+baselines 5 0.045 11 pm,pmc,bpm,bp
+baselines 5 0.0475 0 pm,pmc,bpm,bp
+baselines 5 0.0475 1 pm,pmc,bpm,bp
+baselines 5 0.0475 2 pm,pmc,bpm,bp
+baselines 5 0.0475 3 pm,pmc,bpm,bp
+baselines 5 0.0475 4 pm,pmc,bpm,bp
+baselines 5 0.0475 5 pm,pmc,bpm,bp
+baselines 5 0.0475 6 pm,pmc,bpm,bp
+baselines 5 0.0475 7 pm,pmc,bpm,bp
+baselines 5 0.0475 8 pm,pmc,bpm,bp
+baselines 5 0.0475 9 pm,pmc,bpm,bp
+baselines 5 0.0475 10 pm,pmc,bpm,bp
+baselines 5 0.0475 11 pm,pmc,bpm,bp
+baselines 5 0.05 0 pm,pmc,bpm,bp
+baselines 5 0.05 1 pm,pmc,bpm,bp
+baselines 5 0.05 2 pm,pmc,bpm,bp
+baselines 5 0.05 3 pm,pmc,bpm,bp
+baselines 5 0.05 4 pm,pmc,bpm,bp
+baselines 5 0.05 5 pm,pmc,bpm,bp
+baselines 5 0.05 6 pm,pmc,bpm,bp
+baselines 5 0.05 7 pm,pmc,bpm,bp
+baselines 5 0.05 8 pm,pmc,bpm,bp
+baselines 5 0.05 9 pm,pmc,bpm,bp
+baselines 5 0.05 10 pm,pmc,bpm,bp
+baselines 5 0.05 11 pm,pmc,bpm,bp
+baselines 11 0.025 0 bp625
+baselines 11 0.025 1 bp625
+baselines 11 0.025 2 bp625
+baselines 11 0.025 3 bp625
+baselines 11 0.025 4 bp625
+baselines 11 0.025 5 bp625
+baselines 11 0.025 6 bp625
+baselines 11 0.025 7 bp625
+baselines 11 0.025 8 bp625
+baselines 11 0.025 9 bp625
+baselines 11 0.025 10 bp625
+baselines 11 0.025 11 bp625
+baselines 11 0.03 0 bp625
+baselines 11 0.03 1 bp625
+baselines 11 0.03 2 bp625
+baselines 11 0.03 3 bp625
+baselines 11 0.03 4 bp625
+baselines 11 0.03 5 bp625
+baselines 11 0.03 6 bp625
+baselines 11 0.03 7 bp625
+baselines 11 0.03 8 bp625
+baselines 11 0.03 9 bp625
+baselines 11 0.03 10 bp625
+baselines 11 0.03 11 bp625
+baselines 11 0.035 0 bp625
+baselines 11 0.035 1 bp625
+baselines 11 0.035 2 bp625
+baselines 11 0.035 3 bp625
+baselines 11 0.035 4 bp625
+baselines 11 0.035 5 bp625
+baselines 11 0.035 6 bp625
+baselines 11 0.035 7 bp625
+baselines 11 0.035 8 bp625
+baselines 11 0.035 9 bp625
+baselines 11 0.035 10 bp625
+baselines 11 0.035 11 bp625
+baselines 11 0.04 0 bp625
+baselines 11 0.04 1 bp625
+baselines 11 0.04 2 bp625
+baselines 11 0.04 3 bp625
+baselines 11 0.04 4 bp625
+baselines 11 0.04 5 bp625
+baselines 11 0.04 6 bp625
+baselines 11 0.04 7 bp625
+baselines 11 0.04 8 bp625
+baselines 11 0.04 9 bp625
+baselines 11 0.04 10 bp625
+baselines 11 0.04 11 bp625
+baselines 9 0.025 0 bp625
+baselines 9 0.025 1 bp625
+baselines 9 0.025 2 bp625
+baselines 9 0.025 3 bp625
+baselines 9 0.025 4 bp625
+baselines 9 0.025 5 bp625
+baselines 9 0.025 6 bp625
+baselines 9 0.025 7 bp625
+baselines 9 0.025 8 bp625
+baselines 9 0.025 9 bp625
+baselines 9 0.025 10 bp625
+baselines 9 0.025 11 bp625
+baselines 9 0.03 0 bp625
+baselines 9 0.03 1 bp625
+baselines 9 0.03 2 bp625
+baselines 9 0.03 3 bp625
+baselines 9 0.03 4 bp625
+baselines 9 0.03 5 bp625
+baselines 9 0.03 6 bp625
+baselines 9 0.03 7 bp625
+baselines 9 0.03 8 bp625
+baselines 9 0.03 9 bp625
+baselines 9 0.03 10 bp625
+baselines 9 0.03 11 bp625
+baselines 9 0.035 0 bp625
+baselines 9 0.035 1 bp625
+baselines 9 0.035 2 bp625
+baselines 9 0.035 3 bp625
+baselines 9 0.035 4 bp625
+baselines 9 0.035 5 bp625
+baselines 9 0.035 6 bp625
+baselines 9 0.035 7 bp625
+baselines 9 0.035 8 bp625
+baselines 9 0.035 9 bp625
+baselines 9 0.035 10 bp625
+baselines 9 0.035 11 bp625
+baselines 9 0.04 0 bp625
+baselines 9 0.04 1 bp625
+baselines 9 0.04 2 bp625
+baselines 9 0.04 3 bp625
+baselines 9 0.04 4 bp625
+baselines 9 0.04 5 bp625
+baselines 9 0.04 6 bp625
+baselines 9 0.04 7 bp625
+baselines 9 0.04 8 bp625
+baselines 9 0.04 9 bp625
+baselines 9 0.04 10 bp625
+baselines 9 0.04 11 bp625
+baselines 9 0.0425 0 bp625
+baselines 9 0.0425 1 bp625
+baselines 9 0.0425 2 bp625
+baselines 9 0.0425 3 bp625
+baselines 9 0.0425 4 bp625
+baselines 9 0.0425 5 bp625
+baselines 9 0.0425 6 bp625
+baselines 9 0.0425 7 bp625
+baselines 9 0.0425 8 bp625
+baselines 9 0.0425 9 bp625
+baselines 9 0.0425 10 bp625
+baselines 9 0.0425 11 bp625
+baselines 9 0.0425 12 bp625
+baselines 9 0.0425 13 bp625
+baselines 9 0.0425 14 bp625
+baselines 9 0.0425 15 bp625
+baselines 9 0.0425 16 bp625
+baselines 9 0.0425 17 bp625
+baselines 9 0.0425 18 bp625
+baselines 9 0.0425 19 bp625
+baselines 9 0.0425 20 bp625
+baselines 9 0.0425 21 bp625
+baselines 9 0.0425 22 bp625
+baselines 9 0.0425 23 bp625
+baselines 9 0.0425 24 bp625
+baselines 9 0.0425 25 bp625
+baselines 9 0.0425 26 bp625
+baselines 9 0.0425 27 bp625
+baselines 9 0.0425 28 bp625
+baselines 9 0.0425 29 bp625
+baselines 9 0.0425 30 bp625
+baselines 9 0.0425 31 bp625
+baselines 9 0.0425 32 bp625
+baselines 9 0.0425 33 bp625
+baselines 9 0.0425 34 bp625
+baselines 9 0.0425 35 bp625
+baselines 9 0.045 0 bp625
+baselines 9 0.045 1 bp625
+baselines 9 0.045 2 bp625
+baselines 9 0.045 3 bp625
+baselines 9 0.045 4 bp625
+baselines 9 0.045 5 bp625
+baselines 9 0.045 6 bp625
+baselines 9 0.045 7 bp625
+baselines 9 0.045 8 bp625
+baselines 9 0.045 9 bp625
+baselines 9 0.045 10 bp625
+baselines 9 0.045 11 bp625
+baselines 9 0.045 12 bp625
+baselines 9 0.045 13 bp625
+baselines 9 0.045 14 bp625
+baselines 9 0.045 15 bp625
+baselines 9 0.045 16 bp625
+baselines 9 0.045 17 bp625
+baselines 9 0.045 18 bp625
+baselines 9 0.045 19 bp625
+baselines 9 0.045 20 bp625
+baselines 9 0.045 21 bp625
+baselines 9 0.045 22 bp625
+baselines 9 0.045 23 bp625
+baselines 9 0.045 24 bp625
+baselines 9 0.045 25 bp625
+baselines 9 0.045 26 bp625
+baselines 9 0.045 27 bp625
+baselines 9 0.045 28 bp625
+baselines 9 0.045 29 bp625
+baselines 9 0.045 30 bp625
+baselines 9 0.045 31 bp625
+baselines 9 0.045 32 bp625
+baselines 9 0.045 33 bp625
+baselines 9 0.045 34 bp625
+baselines 9 0.045 35 bp625
+baselines 9 0.0475 0 bp625
+baselines 9 0.0475 1 bp625
+baselines 9 0.0475 2 bp625
+baselines 9 0.0475 3 bp625
+baselines 9 0.0475 4 bp625
+baselines 9 0.0475 5 bp625
+baselines 9 0.0475 6 bp625
+baselines 9 0.0475 7 bp625
+baselines 9 0.0475 8 bp625
+baselines 9 0.0475 9 bp625
+baselines 9 0.0475 10 bp625
+baselines 9 0.0475 11 bp625
+baselines 9 0.0475 12 bp625
+baselines 9 0.0475 13 bp625
+baselines 9 0.0475 14 bp625
+baselines 9 0.0475 15 bp625
+baselines 9 0.0475 16 bp625
+baselines 9 0.0475 17 bp625
+baselines 9 0.0475 18 bp625
+baselines 9 0.0475 19 bp625
+baselines 9 0.0475 20 bp625
+baselines 9 0.0475 21 bp625
+baselines 9 0.0475 22 bp625
+baselines 9 0.0475 23 bp625
+baselines 9 0.0475 24 bp625
+baselines 9 0.0475 25 bp625
+baselines 9 0.0475 26 bp625
+baselines 9 0.0475 27 bp625
+baselines 9 0.0475 28 bp625
+baselines 9 0.0475 29 bp625
+baselines 9 0.0475 30 bp625
+baselines 9 0.0475 31 bp625
+baselines 9 0.0475 32 bp625
+baselines 9 0.0475 33 bp625
+baselines 9 0.0475 34 bp625
+baselines 9 0.0475 35 bp625
+baselines 9 0.05 0 bp625
+baselines 9 0.05 1 bp625
+baselines 9 0.05 2 bp625
+baselines 9 0.05 3 bp625
+baselines 9 0.05 4 bp625
+baselines 9 0.05 5 bp625
+baselines 9 0.05 6 bp625
+baselines 9 0.05 7 bp625
+baselines 9 0.05 8 bp625
+baselines 9 0.05 9 bp625
+baselines 9 0.05 10 bp625
+baselines 9 0.05 11 bp625
+baselines 7 0.025 0 bp625
+baselines 7 0.025 1 bp625
+baselines 7 0.025 2 bp625
+baselines 7 0.025 3 bp625
+baselines 7 0.025 4 bp625
+baselines 7 0.025 5 bp625
+baselines 7 0.025 6 bp625
+baselines 7 0.025 7 bp625
+baselines 7 0.025 8 bp625
+baselines 7 0.025 9 bp625
+baselines 7 0.025 10 bp625
+baselines 7 0.025 11 bp625
+baselines 7 0.03 0 bp625
+baselines 7 0.03 1 bp625
+baselines 7 0.03 2 bp625
+baselines 7 0.03 3 bp625
+baselines 7 0.03 4 bp625
+baselines 7 0.03 5 bp625
+baselines 7 0.03 6 bp625
+baselines 7 0.03 7 bp625
+baselines 7 0.03 8 bp625
+baselines 7 0.03 9 bp625
+baselines 7 0.03 10 bp625
+baselines 7 0.03 11 bp625
+baselines 7 0.035 0 bp625
+baselines 7 0.035 1 bp625
+baselines 7 0.035 2 bp625
+baselines 7 0.035 3 bp625
+baselines 7 0.035 4 bp625
+baselines 7 0.035 5 bp625
+baselines 7 0.035 6 bp625
+baselines 7 0.035 7 bp625
+baselines 7 0.035 8 bp625
+baselines 7 0.035 9 bp625
+baselines 7 0.035 10 bp625
+baselines 7 0.035 11 bp625
+baselines 7 0.04 0 bp625
+baselines 7 0.04 1 bp625
+baselines 7 0.04 2 bp625
+baselines 7 0.04 3 bp625
+baselines 7 0.04 4 bp625
+baselines 7 0.04 5 bp625
+baselines 7 0.04 6 bp625
+baselines 7 0.04 7 bp625
+baselines 7 0.04 8 bp625
+baselines 7 0.04 9 bp625
+baselines 7 0.04 10 bp625
+baselines 7 0.04 11 bp625
+baselines 7 0.0425 0 bp625
+baselines 7 0.0425 1 bp625
+baselines 7 0.0425 2 bp625
+baselines 7 0.0425 3 bp625
+baselines 7 0.0425 4 bp625
+baselines 7 0.0425 5 bp625
+baselines 7 0.0425 6 bp625
+baselines 7 0.0425 7 bp625
+baselines 7 0.0425 8 bp625
+baselines 7 0.0425 9 bp625
+baselines 7 0.0425 10 bp625
+baselines 7 0.0425 11 bp625
+baselines 7 0.0425 12 bp625
+baselines 7 0.0425 13 bp625
+baselines 7 0.0425 14 bp625
+baselines 7 0.0425 15 bp625
+baselines 7 0.0425 16 bp625
+baselines 7 0.0425 17 bp625
+baselines 7 0.0425 18 bp625
+baselines 7 0.0425 19 bp625
+baselines 7 0.0425 20 bp625
+baselines 7 0.0425 21 bp625
+baselines 7 0.0425 22 bp625
+baselines 7 0.0425 23 bp625
+baselines 7 0.0425 24 bp625
+baselines 7 0.0425 25 bp625
+baselines 7 0.0425 26 bp625
+baselines 7 0.0425 27 bp625
+baselines 7 0.0425 28 bp625
+baselines 7 0.0425 29 bp625
+baselines 7 0.0425 30 bp625
+baselines 7 0.0425 31 bp625
+baselines 7 0.0425 32 bp625
+baselines 7 0.0425 33 bp625
+baselines 7 0.0425 34 bp625
+baselines 7 0.0425 35 bp625
+baselines 7 0.045 0 bp625
+baselines 7 0.045 1 bp625
+baselines 7 0.045 2 bp625
+baselines 7 0.045 3 bp625
+baselines 7 0.045 4 bp625
+baselines 7 0.045 5 bp625
+baselines 7 0.045 6 bp625
+baselines 7 0.045 7 bp625
+baselines 7 0.045 8 bp625
+baselines 7 0.045 9 bp625
+baselines 7 0.045 10 bp625
+baselines 7 0.045 11 bp625
+baselines 7 0.045 12 bp625
+baselines 7 0.045 13 bp625
+baselines 7 0.045 14 bp625
+baselines 7 0.045 15 bp625
+baselines 7 0.045 16 bp625
+baselines 7 0.045 17 bp625
+baselines 7 0.045 18 bp625
+baselines 7 0.045 19 bp625
+baselines 7 0.045 20 bp625
+baselines 7 0.045 21 bp625
+baselines 7 0.045 22 bp625
+baselines 7 0.045 23 bp625
+baselines 7 0.045 24 bp625
+baselines 7 0.045 25 bp625
+baselines 7 0.045 26 bp625
+baselines 7 0.045 27 bp625
+baselines 7 0.045 28 bp625
+baselines 7 0.045 29 bp625
+baselines 7 0.045 30 bp625
+baselines 7 0.045 31 bp625
+baselines 7 0.045 32 bp625
+baselines 7 0.045 33 bp625
+baselines 7 0.045 34 bp625
+baselines 7 0.045 35 bp625
+baselines 7 0.0475 0 bp625
+baselines 7 0.0475 1 bp625
+baselines 7 0.0475 2 bp625
+baselines 7 0.0475 3 bp625
+baselines 7 0.0475 4 bp625
+baselines 7 0.0475 5 bp625
+baselines 7 0.0475 6 bp625
+baselines 7 0.0475 7 bp625
+baselines 7 0.0475 8 bp625
+baselines 7 0.0475 9 bp625
+baselines 7 0.0475 10 bp625
+baselines 7 0.0475 11 bp625
+baselines 7 0.0475 12 bp625
+baselines 7 0.0475 13 bp625
+baselines 7 0.0475 14 bp625
+baselines 7 0.0475 15 bp625
+baselines 7 0.0475 16 bp625
+baselines 7 0.0475 17 bp625
+baselines 7 0.0475 18 bp625
+baselines 7 0.0475 19 bp625
+baselines 7 0.0475 20 bp625
+baselines 7 0.0475 21 bp625
+baselines 7 0.0475 22 bp625
+baselines 7 0.0475 23 bp625
+baselines 7 0.0475 24 bp625
+baselines 7 0.0475 25 bp625
+baselines 7 0.0475 26 bp625
+baselines 7 0.0475 27 bp625
+baselines 7 0.0475 28 bp625
+baselines 7 0.0475 29 bp625
+baselines 7 0.0475 30 bp625
+baselines 7 0.0475 31 bp625
+baselines 7 0.0475 32 bp625
+baselines 7 0.0475 33 bp625
+baselines 7 0.0475 34 bp625
+baselines 7 0.0475 35 bp625
+baselines 7 0.05 0 bp625
+baselines 7 0.05 1 bp625
+baselines 7 0.05 2 bp625
+baselines 7 0.05 3 bp625
+baselines 7 0.05 4 bp625
+baselines 7 0.05 5 bp625
+baselines 7 0.05 6 bp625
+baselines 7 0.05 7 bp625
+baselines 7 0.05 8 bp625
+baselines 7 0.05 9 bp625
+baselines 7 0.05 10 bp625
+baselines 7 0.05 11 bp625
+baselines 5 0.025 0 bp625
+baselines 5 0.025 1 bp625
+baselines 5 0.025 2 bp625
+baselines 5 0.025 3 bp625
+baselines 5 0.025 4 bp625
+baselines 5 0.025 5 bp625
+baselines 5 0.025 6 bp625
+baselines 5 0.025 7 bp625
+baselines 5 0.025 8 bp625
+baselines 5 0.025 9 bp625
+baselines 5 0.025 10 bp625
+baselines 5 0.025 11 bp625
+baselines 5 0.03 0 bp625
+baselines 5 0.03 1 bp625
+baselines 5 0.03 2 bp625
+baselines 5 0.03 3 bp625
+baselines 5 0.03 4 bp625
+baselines 5 0.03 5 bp625
+baselines 5 0.03 6 bp625
+baselines 5 0.03 7 bp625
+baselines 5 0.03 8 bp625
+baselines 5 0.03 9 bp625
+baselines 5 0.03 10 bp625
+baselines 5 0.03 11 bp625
+baselines 5 0.035 0 bp625
+baselines 5 0.035 1 bp625
+baselines 5 0.035 2 bp625
+baselines 5 0.035 3 bp625
+baselines 5 0.035 4 bp625
+baselines 5 0.035 5 bp625
+baselines 5 0.035 6 bp625
+baselines 5 0.035 7 bp625
+baselines 5 0.035 8 bp625
+baselines 5 0.035 9 bp625
+baselines 5 0.035 10 bp625
+baselines 5 0.035 11 bp625
+baselines 5 0.04 0 bp625
+baselines 5 0.04 1 bp625
+baselines 5 0.04 2 bp625
+baselines 5 0.04 3 bp625
+baselines 5 0.04 4 bp625
+baselines 5 0.04 5 bp625
+baselines 5 0.04 6 bp625
+baselines 5 0.04 7 bp625
+baselines 5 0.04 8 bp625
+baselines 5 0.04 9 bp625
+baselines 5 0.04 10 bp625
+baselines 5 0.04 11 bp625
+baselines 5 0.0425 0 bp625
+baselines 5 0.0425 1 bp625
+baselines 5 0.0425 2 bp625
+baselines 5 0.0425 3 bp625
+baselines 5 0.0425 4 bp625
+baselines 5 0.0425 5 bp625
+baselines 5 0.0425 6 bp625
+baselines 5 0.0425 7 bp625
+baselines 5 0.0425 8 bp625
+baselines 5 0.0425 9 bp625
+baselines 5 0.0425 10 bp625
+baselines 5 0.0425 11 bp625
+baselines 5 0.045 0 bp625
+baselines 5 0.045 1 bp625
+baselines 5 0.045 2 bp625
+baselines 5 0.045 3 bp625
+baselines 5 0.045 4 bp625
+baselines 5 0.045 5 bp625
+baselines 5 0.045 6 bp625
+baselines 5 0.045 7 bp625
+baselines 5 0.045 8 bp625
+baselines 5 0.045 9 bp625
+baselines 5 0.045 10 bp625
+baselines 5 0.045 11 bp625
+baselines 5 0.0475 0 bp625
+baselines 5 0.0475 1 bp625
+baselines 5 0.0475 2 bp625
+baselines 5 0.0475 3 bp625
+baselines 5 0.0475 4 bp625
+baselines 5 0.0475 5 bp625
+baselines 5 0.0475 6 bp625
+baselines 5 0.0475 7 bp625
+baselines 5 0.0475 8 bp625
+baselines 5 0.0475 9 bp625
+baselines 5 0.0475 10 bp625
+baselines 5 0.0475 11 bp625
+baselines 5 0.05 0 bp625
+baselines 5 0.05 1 bp625
+baselines 5 0.05 2 bp625
+baselines 5 0.05 3 bp625
+baselines 5 0.05 4 bp625
+baselines 5 0.05 5 bp625
+baselines 5 0.05 6 bp625
+baselines 5 0.05 7 bp625
+baselines 5 0.05 8 bp625
+baselines 5 0.05 9 bp625
+baselines 5 0.05 10 bp625
+baselines 5 0.05 11 bp625

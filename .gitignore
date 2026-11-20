@@ -1,0 +1,38 @@
+# Data and run outputs
+data/
+local_runs/
+*.npz
+*.npy
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*.nbi
+*.nbc
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# tiny committed binary fixtures are allowed
+!tests/fixtures/**/*.npz
+!tests/fixtures/**/*.npy
+
+# packaged resources (shipped benchmark manifest copy)
+!src/nimbus/data/
+
+# documentation site build
+site/
+site_offline/
+
+# caches of documentation plugins
+.cache/

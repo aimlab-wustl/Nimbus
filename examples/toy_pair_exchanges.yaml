@@ -1,0 +1,22 @@
+# The six-spin exact-cardinality toy, complete pair-exchange library (15 moves:
+# 9 changing + 6 self-loops at every feasible state). Known optimum: energy -7 at {3,4,5} (1-based).
+schema: nimbus.run/1
+name: toy_pair_exchanges
+description: >
+  Six-spin toy, complete pair exchanges. nimbus solve examples/toy_pair_exchanges.yaml
+problem:
+  kind: toy_cardinality
+transitions:
+  library: pair_exchanges
+annealing:
+  schedule: fn_endpoints
+  params: auto            # FN temperatures calibrated per instance from pilot proposals of the move library
+  calibration: {rule: acceptance, p_start: 0.8, p_end: 0.01, eta: 0.1, scope: instance, budget_cap_fraction: 0.5}
+  attempts: 400
+run:
+  seed: 1
+  replicas: 2
+backend:
+  name: emulation
+recording:
+  profile: summary

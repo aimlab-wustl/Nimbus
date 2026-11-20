@@ -1,0 +1,18 @@
+# Packing (at most one): an OPB file with one at-most-one constraint.
+schema: nimbus.run/1
+name: packing_small
+problem:
+  kind: opb
+  path: problems/packing_small.opb
+transitions:
+  library: default
+annealing:
+  schedule: fn_endpoints
+  params: auto            # FN temperatures calibrated per instance from pilot proposals of the move library
+  calibration: {rule: acceptance, p_start: 0.8, p_end: 0.01, eta: 0.1, scope: instance, budget_cap_fraction: 0.5}
+  attempts: 200
+run:
+  seed: 1
+  replicas: 2
+backend:
+  name: emulation

@@ -1,0 +1,5 @@
+# the repository-wide ignore of build/ must not hide the Vivado build scripts
+!build/
+# build and simulation outputs
+build/out/
+sim/work/

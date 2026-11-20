@@ -1,0 +1,22 @@
+# Graph matching (one-hot permutation constraint, cubic objective): a synthetic instance with 8 points per set.
+# Complete library (all 28 row exchanges); switch to the path library (the 7 exchanges of consecutive rows) with
+#   nimbus solve examples/matching_small.yaml --set transitions.library=path
+# The calibration below is the automatically calibrated schedule of the paper (acceptance rule, p_start 0.8,
+# p_end 0.01, eta 0.1, minimum ratio kappa = 2 applied by lowering the end temperature).
+schema: nimbus.run/1
+name: matching_small
+problem:
+  kind: matching
+  tensor: problems/matching_n8.npz      # made by examples/make_matching_instance.py
+transitions:
+  library: complete
+annealing:
+  schedule: fn_endpoints
+  params: auto
+  calibration: {rule: acceptance, p_start: 0.8, p_end: 0.01, eta: 0.1, min_ratio: 2, min_ratio_mode: lower_end}
+  attempts: 20000
+run:
+  seed: 11
+  replicas: 16
+backend:
+  name: cpu

@@ -1,0 +1,171 @@
+site_name: NIMBUS
+site_description: >-
+  NIMBUS, neuromorphic Ising machine with block updates of spins: a higher-order Ising machine with programmable multi-spin moves. Compiler, emulation,
+  CPU/GPU backends and FPGA decoders that enforce constraints through moves instead of energy penalties.
+site_author: Faiek Ahsan and Shantanu Chakrabartty
+site_url: https://aimlab-wustl.github.io/Nimbus/
+repo_url: https://github.com/aimlab-wustl/Nimbus
+repo_name: aimlab-wustl/Nimbus
+edit_uri: edit/main/docs/
+copyright: CC BY-NC 4.0, Faiek Ahsan and Shantanu Chakrabartty
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/brand/logo.svg
+  favicon: assets/brand/favicon.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+hooks:
+  - docs_hooks/sphinx_roles.py
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      execute: false
+      include_source: true
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            docstring_style: null
+            show_source: true
+            show_root_heading: true
+            show_root_full_path: true
+            show_symbol_type_heading: true
+            show_symbol_type_toc: true
+            members_order: source
+            separate_signature: true
+            show_signature_annotations: true
+            merge_init_into_class: true
+            show_if_no_docstring: true
+            filters: ["!^_"]
+            heading_level: 2
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Get started:
+      - Installation: getting-started/installation.md
+      - Quickstart: getting-started/quickstart.md
+      - 'Notebook: first solve': tutorials/01_first_solve.ipynb
+      - 'Notebook: your own problem': tutorials/02_your_own_problem.ipynb
+      - 'Notebook: finding moves': tutorials/03_finding_moves.ipynb
+  - Concepts:
+      - concepts/index.md
+      - Derive it step by step: concepts/derivation.md
+      - Which moves work: concepts/moves.md
+      - Supported constraints: concepts/constraints.md
+      - Internals: concepts/internals.md
+      - Glossary: concepts/glossary.md
+  - Guides:
+      - Solving a new problem:
+          - guides/new_problem/index.md
+          - A problem file: guides/new_problem/problem_file.md
+          - A problem adapter: guides/new_problem/adapter.md
+          - Your own moves: guides/new_problem/own_moves.md
+      - Settings: guides/settings.md
+      - Reproducing the paper: guides/reproduce.md
+  - Problems:
+      - problems/index.md
+      - Graph matching: problems/graph_matching.md
+      - Surface-code decoding: problems/surface_code.md
+      - Small examples: problems/examples.md
+  - Hardware: hardware/index.md
+  - Demos:
+      - demos/index.md
+      - Jigsaw puzzle: demos/jigsaw.md
+      - Rubik's cube: demos/rubik.md
+      - Surface-code decoding: demos/surface_code.md
+      - Graph matching: demos/graph_matching.md
+  - API:
+      - api/index.md
+      - Running problems: api/running.md
+      - Compiler and model: api/compiler.md
+      - Moves: api/moves.md
+      - Problems: api/problems.md
+      - Annealing: api/annealing.md
+      - Backends: api/backends.md
+      - Surface-code decoding: api/decoding.md
+      - Analysis: api/analysis.md
+  - About:
+      - Citing: about/citing.md
+      - Contact: about/contact.md
+      - Changelog: about/changelog.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/aimlab-wustl/Nimbus
+      name: NIMBUS on GitHub
+    - icon: simple/zenodo
+      link: https://doi.org/10.5281/zenodo.24182700
+      name: Software and data on Zenodo
+  generator: false
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css
+  - assets/brand/nimbus.css
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js
+  - assets/brand/katex.js

@@ -1,0 +1,29 @@
+group,problem_set,L,method,m,kappa,penalty_strength_per_psi_unit,end_temperature_per_psi_unit,start_to_end_ratio,quadratization_multiplier,source
+method comparison,Synthetic,10,"This work, complete",0.125,2,,,,,configs/willow_sym/choice.json
+method comparison,Synthetic,10,"This work, path",8,2,,,,,configs/willow_sym/choice.json
+method comparison,Synthetic,10,"N-HOIM, penalty",,,1,0.3,30,1,configs/willow_sym/choice.json
+method comparison,Synthetic,10,"NeuroSA, quadratized penalty",,,2,0.3,100,1,configs/willow_sym/choice.json
+method comparison,WILLOW,10,"This work, complete",2,32,,,,,configs/willow_sym/choice.json
+method comparison,WILLOW,10,"This work, path",0.5,1.5,,,,,configs/willow_sym/choice.json
+method comparison,WILLOW,10,"N-HOIM, penalty",,,1,0.3,30,1,configs/willow_sym/choice.json
+method comparison,WILLOW,10,"NeuroSA, quadratized penalty",,,2,0.3,10,1,configs/willow_sym/choice.json
+per-size schedule,Synthetic,15,"This work, complete",0.5,2,,,,,configs/tts_per_size/choice.json
+per-size schedule,Synthetic,20,"This work, complete",0.5,2,,,,,configs/tts_per_size/choice.json
+per-size schedule,Synthetic,25,"This work, complete",0.5,2,,,,,configs/tts_per_size/choice.json
+per-size schedule,Synthetic,30,"This work, complete",0.25,2,,,,,configs/tts_per_size/choice.json
+library experiments,Synthetic,20,"Informed, K=40",2,2,,,,,configs/library_its_l20/choice.json
+library experiments,Synthetic,20,"Random, K=40",4,2,,,,,configs/library_its_l20/choice.json
+library experiments,Synthetic,20,"Informed, K=80",1,2,,,,,configs/library_its_l20/choice.json
+library experiments,Synthetic,20,"Random, K=80",1,2,,,,,configs/library_its_l20/choice.json
+library experiments,Synthetic,20,"Complete, uniform proposals",0.5,2,,,,,configs/library_its_l20/choice.json
+library experiments,Synthetic,20,"Complete, backbone share 0.5",0.5,2,,,,,configs/library_its_l20/choice.json
+"library experiments, target Psi*",Synthetic,10,Path,4,8,,,,,configs/library_its_l10/choice.json
+"library experiments, target Psi*",Synthetic,10,"Informed, K=4",2,8,,,,,configs/library_its_l10/choice.json
+"library experiments, target Psi*",Synthetic,10,"Random, K=4",2,8,,,,,configs/library_its_l10/choice.json
+"library experiments, target Psi*",Synthetic,10,"Informed, K=9",2,2,,,,,configs/library_its_l10/choice.json
+"library experiments, target Psi*",Synthetic,10,"Random, K=9",8,32,,,,,configs/library_its_l10/choice.json
+"library experiments, target Psi*",Synthetic,10,"Informed, K=18",0.5,4,,,,,configs/library_its_l10/choice.json
+"library experiments, target Psi*",Synthetic,10,"Random, K=18",1,4,,,,,configs/library_its_l10/choice.json
+"library experiments, target Psi*",Synthetic,10,"Informed, K=27",0.25,2,,,,,configs/library_its_l10/choice.json
+"library experiments, target Psi*",Synthetic,10,"Random, K=27",0.5,2,,,,,configs/library_its_l10/choice.json
+"library experiments, target Psi*",Synthetic,10,"Complete, backbone share 0.5",0.5,4,,,,,configs/library_its_l10/choice.json

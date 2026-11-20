@@ -1,0 +1,4 @@
+* #variable= 4 #constraint= 1 #equal= 0
+* tiny example: one unit-capacity packing (at-most-one) block over x1, x2, x3; x4 free.
+min: +1 x1 +1 x2 +1 x3 -1 x4 ;
+-1 x1 -1 x2 -1 x3 >= -1 ;

@@ -1,0 +1,18 @@
+# Covering (at least one): an OPB file with one covering constraint over signed literals and one free variable.
+schema: nimbus.run/1
+name: covering_small
+problem:
+  kind: opb
+  path: problems/covering_small.opb
+transitions:
+  library: default
+annealing:
+  schedule: fn_endpoints
+  params: auto            # FN temperatures calibrated per instance from pilot proposals of the move library
+  calibration: {rule: acceptance, p_start: 0.8, p_end: 0.01, eta: 0.1, scope: instance, budget_cap_fraction: 0.5}
+  attempts: 200
+run:
+  seed: 1
+  replicas: 2
+backend:
+  name: emulation

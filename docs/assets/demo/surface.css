@@ -1,0 +1,44 @@
+#nimbus-surface-demo {
+  margin: 1rem 0 1.5rem; padding: 1rem 1.1rem; border-radius: 0.9rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: linear-gradient(135deg, rgba(109, 93, 252, 0.06), rgba(34, 211, 238, 0.04));
+}
+#nimbus-surface-demo .sc-stage { display: grid; grid-template-columns: minmax(0, 1fr) minmax(14rem, 0.9fr); gap: 1.2rem; align-items: center; }
+#nimbus-surface-demo .sc-svg { width: 100%; max-width: 26rem; height: auto; justify-self: center; display: block; font-family: var(--md-text-font-family); }
+#nimbus-surface-demo .sc-check { stroke-width: 1.2; transition: fill 0.2s, fill-opacity 0.2s; }
+#nimbus-surface-demo .sc-x { fill: #6d5dfc; fill-opacity: 0.18; stroke: #6d5dfc; stroke-opacity: 0.5; }
+#nimbus-surface-demo .sc-z { fill: #22d3ee; fill-opacity: 0.18; stroke: #0891b2; stroke-opacity: 0.5; }
+#nimbus-surface-demo .sc-lit { fill: #f59e0b; fill-opacity: 0.55; stroke: #d97706; stroke-opacity: 1; stroke-width: 2.2; }
+#nimbus-surface-demo .sc-flash { fill-opacity: 0.5; }
+#nimbus-surface-demo .sc-q { cursor: pointer; }
+#nimbus-surface-demo .sc-q circle { fill: var(--md-default-bg-color); stroke: var(--md-default-fg-color--light); stroke-width: 1.5; transition: fill 0.15s; }
+#nimbus-surface-demo .sc-q:hover circle { stroke: var(--md-accent-fg-color); stroke-width: 2.5; }
+#nimbus-surface-demo .sc-has-cor circle { fill: #312e81; stroke: #22d3ee; }
+#nimbus-surface-demo .sc-cor { font-size: 12px; font-weight: 700; fill: #e0f2fe; text-anchor: middle; pointer-events: none; }
+#nimbus-surface-demo .sc-err { font-size: 12px; font-weight: 800; fill: #dc2626; text-anchor: end; pointer-events: none; }
+#nimbus-surface-demo .sc-bt { font-size: 0.66rem; color: var(--md-default-fg-color--light); margin-bottom: 0.3rem; }
+#nimbus-surface-demo .sc-bar { display: grid; grid-template-columns: 1.4rem 1fr 2.4rem; align-items: center; gap: 0.4rem; margin: 0.25rem 0; font-size: 0.72rem; }
+#nimbus-surface-demo .sc-bar span { font-weight: 700; text-align: center; border-radius: 4px; }
+#nimbus-surface-demo .sc-bar i { height: 0.85rem; border-radius: 4px; background: var(--md-default-fg-color--lighter); transition: width 0.2s; min-width: 2px; }
+#nimbus-surface-demo .sc-bar b { font-variant-numeric: tabular-nums; text-align: right; }
+#nimbus-surface-demo .sc-bar.sc-dec i { background: var(--nb-grad); }
+#nimbus-surface-demo .sc-bar.sc-true span { background: rgba(220, 38, 38, 0.15); color: #dc2626; }
+#nimbus-surface-demo .sc-decision { margin: 0.7rem 0; font-size: 0.74rem; min-height: 2.2rem; }
+#nimbus-surface-demo .sc-good { color: #2e9e5b; font-weight: 700; }
+#nimbus-surface-demo .sc-bad { color: #dc2626; font-weight: 700; }
+#nimbus-surface-demo .sc-dim { color: var(--md-default-fg-color--light); }
+#nimbus-surface-demo .sc-legend { display: flex; flex-wrap: wrap; gap: 0.25rem 0.8rem; font-size: 0.62rem; color: var(--md-default-fg-color--light); }
+#nimbus-surface-demo .sc-legend span { display: inline-flex; align-items: center; gap: 0.3rem; }
+#nimbus-surface-demo .sc-legend i { width: 0.75rem; height: 0.75rem; border-radius: 2px; display: inline-block; }
+#nimbus-surface-demo .sc-k-x { background: rgba(109, 93, 252, 0.35); } #nimbus-surface-demo .sc-k-z { background: rgba(34, 211, 238, 0.35); }
+#nimbus-surface-demo .sc-k-lit { background: rgba(245, 158, 11, 0.7); }
+#nimbus-surface-demo .sc-k-err { color: #dc2626; } #nimbus-surface-demo .sc-k-cor { color: #fff; background: #312e81; border-radius: 50%; padding: 0 0.25rem; }
+#nimbus-surface-demo .sc-stats { display: flex; flex-wrap: wrap; gap: 0.3rem 1.2rem; margin: 0.7rem 0 0.4rem; font-size: 0.7rem; color: var(--md-default-fg-color--light); }
+#nimbus-surface-demo .sc-stats b { color: var(--md-default-fg-color); font-variant-numeric: tabular-nums; }
+#nimbus-surface-demo .sc-ok::before { content: "\2713 "; color: #2e9e5b; font-weight: 700; }
+#nimbus-surface-demo .sc-controls { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center; font-size: 0.7rem; }
+#nimbus-surface-demo .sc-controls .md-button { margin: 0; padding: 0.3em 1.1em; font-size: 0.7rem; }
+#nimbus-surface-demo .sc-controls select { color: var(--md-default-fg-color); background: var(--md-default-bg-color); border: 1px solid var(--md-default-fg-color--lighter); border-radius: 4px; }
+#nimbus-surface-demo .sc-chk { display: inline-flex; align-items: center; gap: 0.3rem; }
+#nimbus-surface-demo .sc-hint { font-size: 0.64rem; color: var(--md-default-fg-color--light); margin: 0.4rem 0 0; }
+@media (max-width: 700px) { #nimbus-surface-demo .sc-stage { grid-template-columns: 1fr; } }

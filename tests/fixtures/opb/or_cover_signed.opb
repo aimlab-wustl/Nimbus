@@ -1,0 +1,9 @@
+* #variable= 7 #constraint= 3 #equal= 0 intsize= 4
+* nimbus original fixture: disjoint hard OR requirements with signed literals.
+* (x1 or ~x2 or x3), written with a negated literal (general OPB);
+* (x4 or ~x5 or ~x6), written in normalized linear form +1 x4 -1 x5 -1 x6 >= -1;
+* (x7), a one-literal requirement that fixes x7 = 1.
+min: +2 x1 +1 x2 -1 x3 +3 x4 x5 -2 x6 +1 x7 ;
++1 x1 +1 ~x2 +1 x3 >= 1 ;
++1 x4 -1 x5 -1 x6 >= -1 ;
++1 x7 >= 1 ;

@@ -1,0 +1,20 @@
+# Same toy with the "augmented" library: complete pair exchanges plus the simultaneous double
+# exchange (1,4)+(2,5) (energy barrier 0 along this library).
+schema: nimbus.run/1
+name: toy_augmented
+problem:
+  kind: toy_cardinality
+transitions:
+  library: augmented
+annealing:
+  schedule: fn_endpoints
+  params: auto            # FN temperatures calibrated per instance from pilot proposals of the move library
+  calibration: {rule: acceptance, p_start: 0.8, p_end: 0.01, eta: 0.1, scope: instance, budget_cap_fraction: 0.5}
+  attempts: 400
+run:
+  seed: 1
+  replicas: 2
+backend:
+  name: emulation
+recording:
+  profile: summary

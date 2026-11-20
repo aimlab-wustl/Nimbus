@@ -1,0 +1,28 @@
+# Offline build of the documentation site, for sharing as a zip (open index.html, no server needed):
+#   mkdocs build -f mkdocs_offline.yml
+INHERIT: mkdocs.yml
+site_dir: site_offline
+plugins:
+  - search
+  - offline
+  - mkdocs-jupyter:
+      execute: false
+      include_source: true
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            docstring_style: null
+            show_source: true
+            show_root_heading: true
+            show_root_full_path: true
+            show_symbol_type_heading: true
+            show_symbol_type_toc: true
+            members_order: source
+            separate_signature: true
+            show_signature_annotations: true
+            merge_init_into_class: true
+            show_if_no_docstring: true
+            filters: ["!^_"]
+            heading_level: 2

@@ -1,0 +1,4 @@
+* #variable= 5 #constraint= 1 #equal= 1 intsize= 3
+* nimbus original fixture: exact cardinality (choose exactly 2 of 5).
+min: +1 x1 x2 -2 x3 +1 x4 x5 ;
++1 x1 +1 x2 +1 x3 +1 x4 +1 x5 = 2 ;

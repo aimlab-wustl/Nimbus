@@ -1,0 +1,8 @@
+name,algorithm,kind,time_per_round_us,ler,source
+This work (FPGA),hw,board,646.3020016676999,0.05466666666666667,board
+Helios (FPGA),uf,published,0.017777777777777778,0.494,Liyanage2024
+Collision Clustering (FPGA),uf,published,0.07,0.494,Barber2025
+Local Clustering (RFSoC),uf,published,0.283,0.494,Ziad2025
+Micro Blossom (FPGA),pm,published,0.04111111111111111,0.21466666666666667,Wu2025
+"BP+OSD (FPGA, worst case)",bp,published,14.88888888888889,0.07633333333333334,Bascones2025
+sliding-window MWPM (CPU),pm,published,2000.0,0.21466666666666667,Skoric2023

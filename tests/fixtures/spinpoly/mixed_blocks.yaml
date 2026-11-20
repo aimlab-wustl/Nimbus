@@ -1,0 +1,16 @@
+# nimbus original fixture: one block of each scoped family plus a free spin (0-based).
+schema: nimbus.spinpoly/1
+name: mixed_blocks
+n_spins: 9
+spin_convention: plus_one_selected
+energy_convention: minus_J
+const: 0
+terms:
+  - {support: [0, 3], weight: 1.5}
+  - {support: [2, 5, 8], weight: -0.5}
+  - {support: [6], weight: 2}
+constraints:
+  chains: [[0, 1, 2]]
+  or_blocks: [{spins: [3, 4], signs: [1, -1]}]
+  amo_blocks: [[5, 6, 7]]
+  free: [8]
